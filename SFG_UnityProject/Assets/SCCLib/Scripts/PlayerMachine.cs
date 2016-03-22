@@ -17,7 +17,7 @@ public class PlayerMachine : SuperStateMachine {
     public float Gravity = 25.0f;
 
     // Add more states by comma separating them
-    enum PlayerStates { Idle, Walk, Jump, Fall }
+    enum PlayerStates { Idle, Walk, Jump, Fall, Damaged}
 
     private SuperCharacterController controller;
 
