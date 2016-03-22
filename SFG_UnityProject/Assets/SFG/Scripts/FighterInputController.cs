@@ -22,12 +22,11 @@ public class FighterInputController : MonoBehaviour
         Vector3 moveInput = new Vector3(Input.GetAxisRaw("Horizontal"), 0, 0);
 
         Vector2 mouseInput = Vector2.zero;
-
-        Vector2 rightStickInput = new Vector2(Input.GetAxisRaw("RightH"), Input.GetAxisRaw("RightV"));
+        Vector2 rightStickInput = Vector2.zero;
 
         // pass rightStick values in place of mouse when non-zero
-        mouseInput.x = rightStickInput.x != 0 ? rightStickInput.x * RightStickMultiplier.x : mouseInput.x;
-        mouseInput.y = rightStickInput.y != 0 ? rightStickInput.y * RightStickMultiplier.y : mouseInput.y;
+        //mouseInput.x = rightStickInput.x != 0 ? rightStickInput.x * RightStickMultiplier.x : mouseInput.x;
+        //mouseInput.y = rightStickInput.y != 0 ? rightStickInput.y * RightStickMultiplier.y : mouseInput.y;
 
         bool jumpInput = Input.GetButtonDown("Jump");
 

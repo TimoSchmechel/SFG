@@ -6,7 +6,7 @@ using System.Collections;
  */
 [RequireComponent(typeof(SuperCharacterController))]
 [RequireComponent(typeof(FighterInputController))]
-public class FighterMachine : SuperStateMachine
+public class FighterStateMachine : SuperStateMachine
 {
 
     public Transform AnimatedMesh;
@@ -16,9 +16,12 @@ public class FighterMachine : SuperStateMachine
     public float JumpAcceleration = 5.0f;
     public float JumpHeight = 3.0f;
     public float Gravity = 25.0f;
+    public float KnockbackFriction = 0.5f;
 
     // Add more states by comma separating them
-    enum PlayerStates { Idle, Walk, Jump, Fall }
+    enum PlayerStates { Idle, Walk, Jump, Fall, Knockback}
+
+    private Vector3 knockbackForce;
 
     private SuperCharacterController controller;
 
@@ -73,6 +76,19 @@ public class FighterMachine : SuperStateMachine
     private bool MaintainingGround()
     {
         return controller.currentGround.IsGrounded(true, 0.5f);
+    }
+
+
+    [ContextMenu("Knockback Test")]
+    public void KnockbackTest()
+    {
+        Knockback(new Vector3(1, 1, 0));
+    }
+
+    public void Knockback(Vector3 kbf)
+    {
+        knockbackForce = kbf;
+        currentState = PlayerStates.Knockback;
     }
 
     public void RotateGravity(Vector3 up)
@@ -205,6 +221,22 @@ public class FighterMachine : SuperStateMachine
         verticalMoveDirection -= controller.up * Gravity * controller.deltaTime;
 
         moveDirection = planarMoveDirection + verticalMoveDirection;
+    }
+
+    void Knockback_EnterState()
+    {
+        moveDirection = knockbackForce;
+    }
+
+    void Knockback_SuperUpdate()
+    {
+        Vector3 normalizedMove = moveDirection;
+        normalizedMove.Normalize();
+
+        moveDirection -= normalizedMove * KnockbackFriction * controller.deltaTime;
+
+        if (moveDirection.magnitude <= KnockbackFriction)
+            currentState = PlayerStates.Idle;
     }
 
     void Fall_EnterState()
