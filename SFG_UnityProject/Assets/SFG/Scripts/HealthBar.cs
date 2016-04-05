@@ -25,7 +25,7 @@ public class HealthBar : MonoBehaviour {
     }
 
     //This updates the health bar
-    public void updateHealth(int health)
+    public void SetHealth(int health)
     {
         for (int i = 0; i < notches.Length; i++)
         {

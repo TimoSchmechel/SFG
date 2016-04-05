@@ -37,7 +37,7 @@ public class Damager : MonoBehaviour
 
         if(h != null)
         {
-            h.health -= damage;
+            h.UpdateHealth(-damage);
         }
     }
 }

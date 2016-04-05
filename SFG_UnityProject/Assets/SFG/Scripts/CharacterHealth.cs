@@ -20,10 +20,13 @@ public class CharacterHealth : MonoBehaviour
     public int health;
 
     public GameObject [] deathSpawn;
+    public HealthBar myHealhBar;
 
 	// Use this for initialization
-	void Start () {
-	
+	void Start ()
+    {
+        if(myHealhBar != null)
+            myHealhBar.SetHealth(health);
 	}
 	
 	// Update is called once per frame
@@ -43,4 +46,12 @@ public class CharacterHealth : MonoBehaviour
             Destroy(gameObject);
         }
 	}
+
+    public void UpdateHealth(int h)
+    {
+        health += h;
+
+        if(myHealhBar != null)
+            myHealhBar.SetHealth(health);
+    }
 }
