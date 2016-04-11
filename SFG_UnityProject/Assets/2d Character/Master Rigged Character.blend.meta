@@ -552,15 +552,15 @@ ModelImporter:
     - serializedVersion: 16
       name: Idle
       takeName: ArmatureAction
-      firstFrame: 60
-      lastFrame: 70
+      firstFrame: 390
+      lastFrame: 429
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
