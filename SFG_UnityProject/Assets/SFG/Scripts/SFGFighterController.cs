@@ -38,9 +38,12 @@ public class SFGFighterController : MonoBehaviour
 
     public ThirdPersonCharacter myController;
 
+	public Animator myAnimator;
+
     private Vector3 originalPos;
 
     private bool jumping = false;
+	Vector3 moveDir = Vector3.zero;
 
     // Use this for initialization
     void Start ()
@@ -53,7 +56,7 @@ public class SFGFighterController : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
-        Vector3 moveDir = Vector3.zero;
+		moveDir = Vector3.zero;
         jumping = false;
 
         if(Input.GetKey(leftKey))
@@ -73,11 +76,23 @@ public class SFGFighterController : MonoBehaviour
             jumping = true;
         }
 
+		ManageAnimations ();
+
         myController.Move(moveDir, false, jumping);
 
         AxisRestrict();
 
+
     }
+
+	void ManageAnimations()
+	{
+		if (myAnimator != null) 
+		{
+			
+			myAnimator.SetFloat ("Speed", moveDir.magnitude);
+		}
+	}
 
     void AxisRestrict()
     {
