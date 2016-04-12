@@ -45,6 +45,8 @@ public class AttackManager : MonoBehaviour
                     if (animator != null)
                     {
                         animator.SetTrigger(animationStrings[i]);
+                        attacks[i].gameObject.SetActive(true);
+                        attacks[i].StartAttack();
                     }
                     else
                     {
