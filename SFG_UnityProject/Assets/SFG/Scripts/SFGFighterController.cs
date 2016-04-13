@@ -6,6 +6,8 @@ Project Contributors:
 Matt Cabanag
 Garion Knapp
 Joshia Braico
+Michael Baker
+Allan Dominguez
 
 This Script:
 Matt Cabanag
@@ -40,6 +42,7 @@ public class SFGFighterController : MonoBehaviour
 
 	public Animator myAnimator;
 
+
     private Vector3 originalPos;
 
     private bool jumping = false;
@@ -49,7 +52,6 @@ public class SFGFighterController : MonoBehaviour
     void Start ()
     {
         myController = GetComponent<ThirdPersonCharacter>();
-
         originalPos = transform.position;
     }
 	

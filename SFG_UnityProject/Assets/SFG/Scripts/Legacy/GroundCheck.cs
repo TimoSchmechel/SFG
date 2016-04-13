@@ -1,24 +1,30 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GroundCheck : MonoBehaviour {
+public class GroundCheck : MonoBehaviour
+{
 	private Player player;
+
 	// Use this for initialization
-	void Start () {
+	void Start ()
+    {
 		player = gameObject .GetComponentInParent<Player> ();
 	}
 	
 	// Update is called once per frame
-	void OnTriggerEnter(Collider col){
+	void OnTriggerEnter(Collider col)
+    {
 		player.grounded = true;
 
 	}
 
-	void OnTriggerStay(Collider col){
+	void OnTriggerStay(Collider col)
+    {
 		player.grounded = true;
 	}
 
-	void OnTriggerExit(Collider col){
+	void OnTriggerExit(Collider col)
+    {
 
 		player.grounded = false;
 	}
