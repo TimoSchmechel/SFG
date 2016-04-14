@@ -70,7 +70,6 @@ ModelImporter:
     7400008: Jump
     7400010: Throw
     7400012: Idle
-    7400014: TakeHit
     9500000: //RootNode
     13700000: Body
     13700002: Head
@@ -331,8 +330,8 @@ ModelImporter:
     - serializedVersion: 16
       name: Attack
       takeName: ArmatureAction
-      firstFrame: 80
-      lastFrame: 95
+      firstFrame: 70
+      lastFrame: 120
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -624,80 +623,6 @@ ModelImporter:
       maskType: 0
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: TakeHit
-      takeName: Default Take
-      firstFrame: 445
-      lastFrame: 469
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: Armature
-        weight: 1
-      - path: Armature/Full
-        weight: 1
-      - path: Armature/Full/Body_0
-        weight: 1
-      - path: Armature/Full/Body_0/Head_0
-        weight: 1
-      - path: Armature/Full/Body_0/L_Forearm
-        weight: 1
-      - path: Armature/Full/Body_0/L_Forearm/L_Hand
-        weight: 1
-      - path: Armature/Full/Body_0/L_Forearm/L_Hand/Weapon
-        weight: 1
-      - path: Armature/Full/Body_0/R_Forearm
-        weight: 1
-      - path: Armature/Full/Body_0/R_Forearm/R_Hand
-        weight: 1
-      - path: Armature/Full/L_Thigh
-        weight: 1
-      - path: Armature/Full/L_Thigh/L_Leg
-        weight: 1
-      - path: Armature/Full/L_Thigh/L_Leg/L_Foot
-        weight: 1
-      - path: Armature/Full/R_Thigh
-        weight: 1
-      - path: Armature/Full/R_Thigh/R_Leg
-        weight: 1
-      - path: Armature/Full/R_Thigh/R_Leg/R_Foot
-        weight: 1
-      - path: Body
-        weight: 0
-      - path: Head
-        weight: 0
-      - path: Left_Arm
-        weight: 0
-      - path: Left_Foot
-        weight: 0
-      - path: Plane
-        weight: 0
-      - path: Right_Arm
-        weight: 0
-      - path: Right_Foot
-        weight: 0
-      maskType: 0
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 429
     isReadable: 1
   meshes:
     lODScreenPercentages: []
