@@ -50,8 +50,6 @@ public class SFGCharacterMotor : MonoBehaviour {
         anim.SetBool("Jump", !grounded);
         anim.SetFloat("Speed", Mathf.Abs(rBody.velocity.x));
 
-
-
         HorizontalMove();
         Jumping();
 
@@ -64,7 +62,6 @@ public class SFGCharacterMotor : MonoBehaviour {
         {
             if (grounded)
             {
-
                 rBody.AddForce(Vector3.up * jumpPower);
                 doubleJump = true;
 
