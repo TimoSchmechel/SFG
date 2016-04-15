@@ -15,9 +15,7 @@ Matt Cabanag
 
 using UnityEngine;
 using System.Collections;
-using UnityStandardAssets.Characters.ThirdPerson;
 
-[RequireComponent(typeof(ThirdPersonCharacter))]
 public class SFGFighterController : MonoBehaviour
 {
     public float moveSpeed = 10;
@@ -38,8 +36,6 @@ public class SFGFighterController : MonoBehaviour
     public KeyCode downKey;
     public KeyCode jumpKey;
 
-    public ThirdPersonCharacter myController;
-
 	public Animator myAnimator;
 
 
@@ -51,7 +47,6 @@ public class SFGFighterController : MonoBehaviour
     // Use this for initialization
     void Start ()
     {
-        myController = GetComponent<ThirdPersonCharacter>();
         originalPos = transform.position;
     }
 	
@@ -79,8 +74,6 @@ public class SFGFighterController : MonoBehaviour
         }
 
 		ManageAnimations ();
-
-        myController.Move(moveDir, false, jumping);
 
         AxisRestrict();
 

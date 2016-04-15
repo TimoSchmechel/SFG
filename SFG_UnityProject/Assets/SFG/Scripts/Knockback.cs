@@ -15,7 +15,6 @@ Matt Cabanag
 
 using UnityEngine;
 using System.Collections;
-using UnityStandardAssets.Characters.ThirdPerson;
 
 public class Knockback : MonoBehaviour
 {
@@ -48,9 +47,6 @@ public class Knockback : MonoBehaviour
 
         Debug.Log("Knockback. Trigger entered: " + col.gameObject.name);
 
-        ThirdPersonCharacter c;
-        c = col.gameObject.GetComponent<ThirdPersonCharacter>();
-        c.Move(Vector3.zero, false, true);
 
         //knock back the rigidbody
         Rigidbody r;

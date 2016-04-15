@@ -104,7 +104,8 @@ public class SFGCharacterController : MonoBehaviour
         }
 
 
-        jumping = Input.GetKey(jumpKey);
+        jumping = Input.GetKeyDown(jumpKey);
+        
     }
 
     void SyncWithCharacterMotor()
