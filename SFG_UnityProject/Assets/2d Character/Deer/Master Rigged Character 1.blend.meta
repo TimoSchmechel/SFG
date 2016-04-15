@@ -29,6 +29,9 @@ ModelImporter:
     100042: Right_Arm
     100044: Right_Foot
     100046: Weapon
+    100048: Head_001
+    100050: Weapon_0
+    100052: Right_Arm_001
     400000: Armature
     400002: Body
     400004: Body_0
@@ -53,6 +56,9 @@ ModelImporter:
     400042: Right_Arm
     400044: Right_Foot
     400046: Weapon
+    400048: Head_001
+    400050: Weapon_0
+    400052: Right_Arm_001
     2300000: Plane_001
     3300000: Plane_001
     4300000: Plane_001
@@ -63,6 +69,9 @@ ModelImporter:
     4300010: Left_Arm
     4300012: Head
     4300014: Body
+    4300016: Head_001
+    4300018: Weapon
+    4300020: Right_Arm_001
     7400000: Default Take
     7400002: ArmatureAction
     7400004: Walk
@@ -79,6 +88,9 @@ ModelImporter:
     13700008: Plane
     13700010: Right_Arm
     13700012: Right_Foot
+    13700014: Head_001
+    13700016: Weapon
+    13700018: Right_Arm_001
   materials:
     importMaterials: 1
     materialName: 0
