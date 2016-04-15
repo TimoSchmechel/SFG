@@ -56,16 +56,16 @@ public class SFGCharacterController : MonoBehaviour
         rBody.constraints = RigidbodyConstraints.None;
 
         if(axisRestrictions.x)
-            rBody.constraints = RigidbodyConstraints.FreezePositionX;
+            rBody.constraints = rBody.constraints | RigidbodyConstraints.FreezePositionX;
 
         if(axisRestrictions.y)
-            rBody.constraints = RigidbodyConstraints.FreezePositionY;
+            rBody.constraints = rBody.constraints | RigidbodyConstraints.FreezePositionY;
 
         if (axisRestrictions.z)
-            rBody.constraints = RigidbodyConstraints.FreezePositionZ;
+            rBody.constraints = rBody.constraints | RigidbodyConstraints.FreezePositionZ;
 
         //assume rotation restriction
-        rBody.constraints = RigidbodyConstraints.FreezeRotation;
+        rBody.constraints = rBody.constraints | RigidbodyConstraints.FreezeRotation;
 
     }
 	
