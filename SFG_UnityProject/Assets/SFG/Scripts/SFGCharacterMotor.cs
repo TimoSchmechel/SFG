@@ -33,7 +33,6 @@ public class SFGCharacterMotor : MonoBehaviour {
     private Rigidbody rBody;
     public Animator anim;
     Vector3 mVector;
-
     
 
     // Use this for initialization
@@ -63,6 +62,11 @@ public class SFGCharacterMotor : MonoBehaviour {
                 rBody.AddForce(Vector3.up * jumpPower * sanityCoEfficient);
             }
         }
+    }
+
+    void Knockback()
+    {
+        anim.SetTrigger("TakeHit");
     }
 
     void HorizontalMove()

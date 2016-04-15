@@ -53,6 +53,7 @@ public class Knockback : MonoBehaviour
         r = col.gameObject.GetComponent<Rigidbody>();
         PushBody(r);
 
+        col.gameObject.SendMessage("Knockback", SendMessageOptions.DontRequireReceiver);
     }
 
     public void PushBody(Rigidbody r)
