@@ -41,6 +41,7 @@ public class SFGCharacterController : MonoBehaviour
     private bool jumping = false;
     private Vector2 hVector = Vector3.zero;
     private Vector3 originalPos;
+    Rigidbody rBody;
 
     // Use this for initialization
     void Start ()
@@ -51,20 +52,20 @@ public class SFGCharacterController : MonoBehaviour
         originalPos = transform.position;
 
         //apply the fighter's constraint settings to the rigidbody;
-        Rigidbody r = gameObject.GetComponent<Rigidbody>();
-        r.constraints = RigidbodyConstraints.None;
+        rBody = gameObject.GetComponent<Rigidbody>();
+        rBody.constraints = RigidbodyConstraints.None;
 
         if(axisRestrictions.x)
-            r.constraints = RigidbodyConstraints.FreezePositionX;
+            rBody.constraints = RigidbodyConstraints.FreezePositionX;
 
         if(axisRestrictions.y)
-            r.constraints = RigidbodyConstraints.FreezePositionY;
+            rBody.constraints = RigidbodyConstraints.FreezePositionY;
 
         if (axisRestrictions.z)
-            r.constraints = RigidbodyConstraints.FreezePositionZ;
+            rBody.constraints = RigidbodyConstraints.FreezePositionZ;
 
         //assume rotation restriction
-        r.constraints = RigidbodyConstraints.FreezeRotation;
+        rBody.constraints = RigidbodyConstraints.FreezeRotation;
 
     }
 	

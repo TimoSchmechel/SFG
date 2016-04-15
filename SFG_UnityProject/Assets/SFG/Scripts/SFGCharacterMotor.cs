@@ -20,28 +20,26 @@ using System.Collections;
 
 public class SFGCharacterMotor : MonoBehaviour {
 
-    public float maxSpeed = 5;
-    public float speed = 100f;
-    public float jumpPower = 200f;
+    public float maxSpeed = 2;
+    public float speed = 2;
+    public float jumpPower = 50f;
     public Vector2 hVector;
     public bool jumpSwitch;
+    public float sanityCoEfficient = 200;
 
 
     public bool grounded;
-    public bool doubleJump;
-
-    public int currentHealth;
-    public int maxHealth = 5;
 
     private Rigidbody rBody;
     public Animator anim;
+    Vector3 mVector;
 
+    
 
     // Use this for initialization
     void Start()
     {
         rBody = gameObject.GetComponent<Rigidbody>();
-        currentHealth = maxHealth;
     }
 
     // Update is called once per frame
@@ -62,18 +60,7 @@ public class SFGCharacterMotor : MonoBehaviour {
         {
             if (grounded)
             {
-                rBody.AddForce(Vector3.up * jumpPower);
-                doubleJump = true;
-
-            }
-            else
-            {
-                if (doubleJump)
-                {
-                    rBody.velocity = new Vector3(rBody.velocity.x, 0.0f);
-                    rBody.AddForce(Vector3.up * jumpPower);
-                    doubleJump = false;
-                }
+                rBody.AddForce(Vector3.up * jumpPower * sanityCoEfficient);
             }
         }
     }
@@ -81,19 +68,18 @@ public class SFGCharacterMotor : MonoBehaviour {
     void HorizontalMove()
     {
 
-
         //float h = Input.GetAxis("Horizontal");
 
         hVector.Normalize();
 
         //translate between vector2 space and vector3 space...
-        Vector3 mVector = Vector3.zero;
+        mVector = Vector3.zero;
         mVector.x = hVector.x;
         mVector.z = hVector.y;
 
         //make the rigidbody move, but constrain it with maxspeed
-        if (rBody.velocity.magnitude < maxSpeed)
-            rBody.AddForce(mVector * speed);
+        //if (rBody.velocity.magnitude < maxSpeed)
+        rBody.AddForce(mVector * speed * sanityCoEfficient);
 
     }
 }
