@@ -4,6 +4,7 @@ using System.Collections;
 public class ChooseCharacter : MonoBehaviour {
 
     public int charIndex = 0;
+    //Needs to be non-empty
     public string SetMode = "Empty";
     private int numOfC = 2;//Should access a static script that contails all of the character details
 
