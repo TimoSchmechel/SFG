@@ -5,9 +5,15 @@ public class ChooseCharacter : MonoBehaviour {
 
     public int charIndex = 0;
     public string SetMode = "Empty";
-    private int numOfCharacters = 8;//Should access a static script that contails all of the character details
+    private int numOfC = 2;//Should access a static script that contails all of the character details
 
+    private DisplayCharacterSelected dChar;
 
+    void Start()
+    {
+        dChar = gameObject.GetComponent<DisplayCharacterSelected>();
+        dChar.CreateCharacter(charIndex);
+    }
     void Update()
     {
         //Controller can be selected from SetMode string
@@ -19,12 +25,12 @@ public class ChooseCharacter : MonoBehaviour {
             charIndex = charIndex - 1;
             if (charIndex < 0)
             {
-                charIndex = numOfCharacters - 1;
+                charIndex = numOfC - 1;
             }
         }
         private void Right()
         {
-            charIndex = (charIndex + 1) % numOfCharacters;
+            charIndex = (charIndex + 1) % numOfC;
         }
 
         //Sets what controller will be used
@@ -42,6 +48,8 @@ public class ChooseCharacter : MonoBehaviour {
         //Controls the character selection with arrow keys
         private void ArrowMovement()
         {
+        if (Input.anyKeyDown)
+        {
             if (Input.GetKeyDown(KeyCode.LeftArrow))
             {
                 Left();
@@ -50,17 +58,23 @@ public class ChooseCharacter : MonoBehaviour {
             {
                 Right();
             }
+            dChar.CreateCharacter(charIndex);
+        }
         }
     //Controls the character selection with WASD keys
     private void WASDMovement()
     {
-        if (Input.GetKeyDown(KeyCode.A))
+        if (Input.anyKeyDown)
         {
-            Left();
-        }
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            Right();
+            if (Input.GetKeyDown(KeyCode.A))
+            {
+                Left();
+            }
+            if (Input.GetKeyDown(KeyCode.D))
+            {
+                Right();
+            }
+            dChar.CreateCharacter(charIndex);
         }
     }
 }
