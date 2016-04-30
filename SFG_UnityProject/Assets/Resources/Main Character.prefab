@@ -271,7 +271,7 @@ GameObject:
   - 4: {fileID: 403010}
   - 95: {fileID: 9510770}
   m_Layer: 0
-  m_Name: P1
+  m_Name: Main Character
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -609,7 +609,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 190668}
-  m_LocalRotation: {x: 0.30168146, y: 0.66786724, z: -0.6199059, w: 0.28046086}
+  m_LocalRotation: {x: 0.3016815, y: 0.6678673, z: -0.61990595, w: 0.2804609}
   m_LocalPosition: {x: -0.15575705, y: 0.000000009313226, z: -0.000000037020072}
   m_LocalScale: {x: 1, y: 1, z: 0.99999994}
   m_Children: []
