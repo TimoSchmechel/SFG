@@ -16,7 +16,6 @@ Matt Cabanag
 using UnityEngine;
 using System.Collections;
 
-[RequireComponent(typeof(SFGCharacterMotor))]
 public class SFGCharacterController : MonoBehaviour
 {
 
@@ -52,7 +51,9 @@ public class SFGCharacterController : MonoBehaviour
         originalPos = transform.position;
 
         //apply the fighter's constraint settings to the rigidbody;
-        rBody = gameObject.GetComponent<Rigidbody>();
+       if(rBody == null)
+            rBody = myMotor.GetComponent<Rigidbody>();
+
         rBody.constraints = RigidbodyConstraints.None;
 
         if(axisRestrictions.x)
@@ -94,13 +95,13 @@ public class SFGCharacterController : MonoBehaviour
         if(Input.GetKey(upKey))
         {
             hVector.y += 1;
-            Debug.Log(hVector);
+            //Debug.Log(hVector);
         }
 
         if(Input.GetKey(downKey))
         {
             hVector.y -= 1;
-            Debug.Log(hVector);
+            //Debug.Log(hVector);
         }
 
 
