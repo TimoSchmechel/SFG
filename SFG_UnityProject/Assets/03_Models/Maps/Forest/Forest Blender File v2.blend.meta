@@ -63,6 +63,9 @@ ModelImporter:
     100110: Tree_003
     100112: Tree_004
     100114: Ground_Platform_001
+    100116: Back_Platform
+    100118: Front_Platform
+    100120: R_Platform_001
     400000: Bridge
     400002: //RootNode
     400004: Ground_Platform
@@ -121,6 +124,9 @@ ModelImporter:
     400110: Tree_003
     400112: Tree_004
     400114: Ground_Platform_001
+    400116: Back_Platform
+    400118: Front_Platform
+    400120: R_Platform_001
     2300000: Bridge
     2300002: Ground_Platform
     2300004: L_Background
@@ -178,6 +184,9 @@ ModelImporter:
     2300108: Tree_003
     2300110: Tree_004
     2300112: Ground_Platform_001
+    2300114: Back_Platform
+    2300116: Front_Platform
+    2300118: R_Platform_001
     3300000: Bridge
     3300002: Ground_Platform
     3300004: L_Background
@@ -235,6 +244,9 @@ ModelImporter:
     3300108: Tree_003
     3300110: Tree_004
     3300112: Ground_Platform_001
+    3300114: Back_Platform
+    3300116: Front_Platform
+    3300118: R_Platform_001
     4300000: Tree_004
     4300002: Leaves_004
     4300004: Tree_003
@@ -292,6 +304,9 @@ ModelImporter:
     4300108: L_Background
     4300110: R_Background
     4300112: Ground_Platform_001
+    4300114: Front_Platform
+    4300116: Back_Platform
+    4300118: R_Platform_001
     7400000: Default Take
     9500000: //RootNode
   materials:
