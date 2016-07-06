@@ -54,4 +54,9 @@ public class CharacterHealth : MonoBehaviour
         if(myHealhBar != null)
             myHealhBar.SetHealth(health);
     }
+
+    public void Kill()
+    {
+        health = 0;
+    }
 }
