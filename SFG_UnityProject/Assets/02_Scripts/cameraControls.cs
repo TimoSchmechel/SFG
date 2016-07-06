@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class cameraControls : MonoBehaviour {
+public class cameraControls : MonoBehaviour
+{
 
     private float minX, maxX, minY, maxY;
 
@@ -10,15 +11,17 @@ public class cameraControls : MonoBehaviour {
 
     void Start()
     {
-        
+
     }
     // Update is called once per frame
-    void Update () {
-        CalculateBounds();
+    void Update()
+    {
+        CalculateBounds(); //Gets the min and max values of each player
         CalculateCameraPosAndSize();
-	}
+    }
     void CalculateBounds()
     {
+        //Finds the players that have the the min and max x and y positions
         minX = Mathf.Infinity;
         maxX = -Mathf.Infinity;
         minY = Mathf.Infinity;
@@ -44,18 +47,17 @@ public class cameraControls : MonoBehaviour {
     {
         Vector3 cameraCenter = Vector3.zero;
 
-        foreach(GameObject player in players)
+        foreach (GameObject player in players)
         {
             cameraCenter += player.transform.position;
         }
         Vector3 finalCameraCenter = cameraCenter / players.Length;
-        //transform.position = new Vector3(finalCameraCenter.x,finalCameraCenter.y,-10f);
-        //transform.position = new Vector3((minX+maxX)/2, (minY + maxY) / 2, -10f);
 
-        float maxXDist = 18;
+        //If the distance between the min and the max values get larger than these values the camera will dolly out
+        float maxXDist = 30;
         float maxYDist = 8;
 
-        float startZ = -10;
+        float startZ = -12;
 
         //Gets the distance between xPoints
         float currXDist = Vector2.Distance(new Vector2(minX, 0), new Vector2(maxX, 0));
@@ -66,7 +68,18 @@ public class cameraControls : MonoBehaviour {
         //Gets the max distance
         float maxDist = Mathf.Max(currXDist, currYDist);
         float newZ = startZ - maxDist;
-        transform.position = new Vector3((minX + maxX) / 2, (minY + maxY) / 2, newZ);
+
+        Vector3 newPos;
+
+        if (players.Length > 1)
+        {
+            newPos = new Vector3((minX + maxX) / 2, (minY + maxY) / 2, Mathf.Clamp(newZ, -Mathf.Infinity, -8));
+        }
+        else
+        {
+            newPos = players[0].transform.position + new Vector3(0, 0, -8) + new Vector3(0, 2, 0);
+        }
+        transform.position = Vector3.Lerp(transform.position, newPos, Time.deltaTime);
 
 
 
