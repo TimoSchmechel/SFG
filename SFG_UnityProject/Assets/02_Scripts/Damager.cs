@@ -6,7 +6,6 @@ Project Contributors:
 Matt Cabanag
 Garion Knapp
 Joshia Braico
-Harrison Campbell
 
 This Script:
 Matt Cabanag
@@ -19,12 +18,24 @@ public class Damager : MonoBehaviour
 {
     public int damage = 1;
 
+
+    // Use this for initialization
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+
     void OnTriggerEnter(Collider col)
     {
         CharacterHealth h = col.GetComponent<CharacterHealth>();
-        //If the character attacked is both vulnerable and has a CharacterHealthScript
-        //They will take 1 damage
-        if (h != null && !h.invunerable)
+
+        if(h != null)
         {
             h.UpdateHealth(-damage);
         }

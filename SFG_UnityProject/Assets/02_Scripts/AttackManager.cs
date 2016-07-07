@@ -18,38 +18,31 @@ using System.Collections;
 
 public class AttackManager : MonoBehaviour
 {
-    public Attack[] attacks;
-    public KeyCode[] attackKeys;
-    public string[] animationStrings;
+    public Attack [] attacks;
+    public KeyCode [] attackKeys;
+    public string [] animationStrings;
     public Animator animator;
-    private CharacterHealth charHealth;
 
-    // Use this for initialization
-    void Start()
+	// Use this for initialization
+	void Start ()
     {
-        charHealth = GetComponent<CharacterHealth>();
-
-    }
-
-    // Update is called once per frame
-    void Update()
+	
+	}
+	
+	// Update is called once per frame
+	void Update ()
     {
-        //If the player is not invulnerable they can attack
-        if (!charHealth.invunerable)
-        {
-            CheckKeys();
-        }
-
+        CheckKeys();
     }
 
     void CheckKeys()
     {
-        if (attackKeys != null && attacks != null &&
+        if(attackKeys != null && attacks != null &&
             attackKeys.Length == attacks.Length)
         {
             for (int i = 0; i < attackKeys.Length; i++)
-            {
-                if (Input.GetKeyDown(attackKeys[i]))
+            { 
+               if(Input.GetKeyDown(attackKeys[i]))
                 {
                     if (animator != null)
                     {
@@ -62,7 +55,7 @@ public class AttackManager : MonoBehaviour
                         attacks[i].gameObject.SetActive(true);
                         attacks[i].StartAttack();
                     }
-
+                    
                 }
 
 
@@ -70,7 +63,7 @@ public class AttackManager : MonoBehaviour
 
         }
 
-
+        
     }
 
 }
