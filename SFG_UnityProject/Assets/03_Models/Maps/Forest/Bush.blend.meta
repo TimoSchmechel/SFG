@@ -343,6 +343,17 @@ ModelImporter:
     4300042: LeafMesh
     4300044: Base
     7400000: Default Take
+    7400002: Leaf_001Action
+    7400004: Leaf_003Action
+    7400006: Leaf_004Action
+    7400008: Leaf_005Action
+    7400010: Leaf_006Action
+    7400012: Leaf_007Action
+    7400014: Leaf_018Action
+    7400016: Leaf_019Action
+    7400018: Leaf_020Action
+    7400020: Leaf_021Action
+    7400022: IdleSway
     9500000: //RootNode
     13700000: LeafMesh
     13700002: LeafMesh_001
@@ -386,7 +397,4087 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Leaf
+        weight: 1
+      - path: Leaf/Bone_100
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101/Bone_102
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101/Bone_102/Bone_103
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101/Bone_102/Bone_103/Bone_104
+        weight: 1
+      - path: Leaf_001
+        weight: 1
+      - path: Leaf_001/Bone_95
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96/Bone_97
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96/Bone_97/Bone_98
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96/Bone_97/Bone_98/Bone_99
+        weight: 1
+      - path: Leaf_002
+        weight: 1
+      - path: Leaf_002/Bone_90
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91/Bone_92
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91/Bone_92/Bone_93
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91/Bone_92/Bone_93/Bone_94
+        weight: 1
+      - path: Leaf_003
+        weight: 1
+      - path: Leaf_003/Bone_85
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86/Bone_87
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86/Bone_87/Bone_88
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86/Bone_87/Bone_88/Bone_89
+        weight: 1
+      - path: Leaf_004
+        weight: 1
+      - path: Leaf_004/Bone_80
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81/Bone_82
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81/Bone_82/Bone_83
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81/Bone_82/Bone_83/Bone_84
+        weight: 1
+      - path: Leaf_005
+        weight: 1
+      - path: Leaf_005/Bone_75
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76/Bone_77
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76/Bone_77/Bone_78
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76/Bone_77/Bone_78/Bone_79
+        weight: 1
+      - path: Leaf_006
+        weight: 1
+      - path: Leaf_006/Bone_70
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71/Bone_72
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71/Bone_72/Bone_73
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71/Bone_72/Bone_73/Bone_74
+        weight: 1
+      - path: Leaf_007
+        weight: 1
+      - path: Leaf_007/Bone_65
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66/Bone_67
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66/Bone_67/Bone_68
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66/Bone_67/Bone_68/Bone_69
+        weight: 1
+      - path: Leaf_008
+        weight: 1
+      - path: Leaf_008/Bone_60
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61/Bone_62
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61/Bone_62/Bone_63
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61/Bone_62/Bone_63/Bone_64
+        weight: 1
+      - path: Leaf_009
+        weight: 1
+      - path: Leaf_009/Bone_55
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56/Bone_57
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56/Bone_57/Bone_58
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56/Bone_57/Bone_58/Bone_59
+        weight: 1
+      - path: Leaf_010
+        weight: 1
+      - path: Leaf_010/Bone_50
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51/Bone_52
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51/Bone_52/Bone_53
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51/Bone_52/Bone_53/Bone_54
+        weight: 1
+      - path: Leaf_011
+        weight: 1
+      - path: Leaf_011/Bone_45
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46/Bone_47
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46/Bone_47/Bone_48
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46/Bone_47/Bone_48/Bone_49
+        weight: 1
+      - path: Leaf_012
+        weight: 1
+      - path: Leaf_012/Bone_40
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41/Bone_42
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41/Bone_42/Bone_43
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41/Bone_42/Bone_43/Bone_44
+        weight: 1
+      - path: Leaf_013
+        weight: 1
+      - path: Leaf_013/Bone_35
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36/Bone_37
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36/Bone_37/Bone_38
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36/Bone_37/Bone_38/Bone_39
+        weight: 1
+      - path: Leaf_014
+        weight: 1
+      - path: Leaf_014/Bone_30
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31/Bone_32
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31/Bone_32/Bone_33
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31/Bone_32/Bone_33/Bone_34
+        weight: 1
+      - path: Leaf_015
+        weight: 1
+      - path: Leaf_015/Bone_25
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26/Bone_27
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26/Bone_27/Bone_28
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26/Bone_27/Bone_28/Bone_29
+        weight: 1
+      - path: Leaf_016
+        weight: 1
+      - path: Leaf_016/Bone_20
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21/Bone_22
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21/Bone_22/Bone_23
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21/Bone_22/Bone_23/Bone_24
+        weight: 1
+      - path: Leaf_017
+        weight: 1
+      - path: Leaf_017/Bone_15
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16/Bone_17
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16/Bone_17/Bone_18
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16/Bone_17/Bone_18/Bone_19
+        weight: 1
+      - path: Leaf_018
+        weight: 1
+      - path: Leaf_018/Bone_10
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11/Bone_12
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11/Bone_12/Bone_13
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11/Bone_12/Bone_13/Bone_14
+        weight: 1
+      - path: Leaf_019
+        weight: 1
+      - path: Leaf_019/Bone_1
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6/Bone_7
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6/Bone_7/Bone_8
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6/Bone_7/Bone_8/Bone_9
+        weight: 1
+      - path: Leaf_020
+        weight: 1
+      - path: Leaf_020/Bone_0
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2/Bone_3
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2/Bone_3/Bone_4
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2/Bone_3/Bone_4/Bone_5
+        weight: 1
+      - path: Leaf_021
+        weight: 1
+      - path: Leaf_021/Bone
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001/Bone_002
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001/Bone_002/Bone_003
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001/Bone_002/Bone_003/Bone_004
+        weight: 1
+      - path: LeafMesh
+        weight: 1
+      - path: LeafMesh_001
+        weight: 1
+      - path: LeafMesh_002
+        weight: 1
+      - path: LeafMesh_003
+        weight: 1
+      - path: LeafMesh_004
+        weight: 1
+      - path: LeafMesh_005
+        weight: 1
+      - path: LeafMesh_006
+        weight: 1
+      - path: LeafMesh_007
+        weight: 1
+      - path: LeafMesh_008
+        weight: 1
+      - path: LeafMesh_009
+        weight: 1
+      - path: LeafMesh_010
+        weight: 1
+      - path: LeafMesh_011
+        weight: 1
+      - path: LeafMesh_012
+        weight: 1
+      - path: LeafMesh_013
+        weight: 1
+      - path: LeafMesh_014
+        weight: 1
+      - path: LeafMesh_015
+        weight: 1
+      - path: LeafMesh_016
+        weight: 1
+      - path: LeafMesh_017
+        weight: 1
+      - path: LeafMesh_018
+        weight: 1
+      - path: LeafMesh_019
+        weight: 1
+      - path: LeafMesh_020
+        weight: 1
+      - path: LeafMesh_021
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Leaf_001Action
+      takeName: Leaf_001Action
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Leaf
+        weight: 1
+      - path: Leaf/Bone_100
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101/Bone_102
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101/Bone_102/Bone_103
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101/Bone_102/Bone_103/Bone_104
+        weight: 1
+      - path: Leaf_001
+        weight: 1
+      - path: Leaf_001/Bone_95
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96/Bone_97
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96/Bone_97/Bone_98
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96/Bone_97/Bone_98/Bone_99
+        weight: 1
+      - path: Leaf_002
+        weight: 1
+      - path: Leaf_002/Bone_90
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91/Bone_92
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91/Bone_92/Bone_93
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91/Bone_92/Bone_93/Bone_94
+        weight: 1
+      - path: Leaf_003
+        weight: 1
+      - path: Leaf_003/Bone_85
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86/Bone_87
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86/Bone_87/Bone_88
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86/Bone_87/Bone_88/Bone_89
+        weight: 1
+      - path: Leaf_004
+        weight: 1
+      - path: Leaf_004/Bone_80
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81/Bone_82
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81/Bone_82/Bone_83
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81/Bone_82/Bone_83/Bone_84
+        weight: 1
+      - path: Leaf_005
+        weight: 1
+      - path: Leaf_005/Bone_75
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76/Bone_77
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76/Bone_77/Bone_78
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76/Bone_77/Bone_78/Bone_79
+        weight: 1
+      - path: Leaf_006
+        weight: 1
+      - path: Leaf_006/Bone_70
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71/Bone_72
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71/Bone_72/Bone_73
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71/Bone_72/Bone_73/Bone_74
+        weight: 1
+      - path: Leaf_007
+        weight: 1
+      - path: Leaf_007/Bone_65
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66/Bone_67
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66/Bone_67/Bone_68
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66/Bone_67/Bone_68/Bone_69
+        weight: 1
+      - path: Leaf_008
+        weight: 1
+      - path: Leaf_008/Bone_60
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61/Bone_62
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61/Bone_62/Bone_63
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61/Bone_62/Bone_63/Bone_64
+        weight: 1
+      - path: Leaf_009
+        weight: 1
+      - path: Leaf_009/Bone_55
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56/Bone_57
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56/Bone_57/Bone_58
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56/Bone_57/Bone_58/Bone_59
+        weight: 1
+      - path: Leaf_010
+        weight: 1
+      - path: Leaf_010/Bone_50
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51/Bone_52
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51/Bone_52/Bone_53
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51/Bone_52/Bone_53/Bone_54
+        weight: 1
+      - path: Leaf_011
+        weight: 1
+      - path: Leaf_011/Bone_45
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46/Bone_47
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46/Bone_47/Bone_48
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46/Bone_47/Bone_48/Bone_49
+        weight: 1
+      - path: Leaf_012
+        weight: 1
+      - path: Leaf_012/Bone_40
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41/Bone_42
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41/Bone_42/Bone_43
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41/Bone_42/Bone_43/Bone_44
+        weight: 1
+      - path: Leaf_013
+        weight: 1
+      - path: Leaf_013/Bone_35
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36/Bone_37
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36/Bone_37/Bone_38
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36/Bone_37/Bone_38/Bone_39
+        weight: 1
+      - path: Leaf_014
+        weight: 1
+      - path: Leaf_014/Bone_30
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31/Bone_32
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31/Bone_32/Bone_33
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31/Bone_32/Bone_33/Bone_34
+        weight: 1
+      - path: Leaf_015
+        weight: 1
+      - path: Leaf_015/Bone_25
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26/Bone_27
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26/Bone_27/Bone_28
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26/Bone_27/Bone_28/Bone_29
+        weight: 1
+      - path: Leaf_016
+        weight: 1
+      - path: Leaf_016/Bone_20
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21/Bone_22
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21/Bone_22/Bone_23
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21/Bone_22/Bone_23/Bone_24
+        weight: 1
+      - path: Leaf_017
+        weight: 1
+      - path: Leaf_017/Bone_15
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16/Bone_17
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16/Bone_17/Bone_18
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16/Bone_17/Bone_18/Bone_19
+        weight: 1
+      - path: Leaf_018
+        weight: 1
+      - path: Leaf_018/Bone_10
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11/Bone_12
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11/Bone_12/Bone_13
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11/Bone_12/Bone_13/Bone_14
+        weight: 1
+      - path: Leaf_019
+        weight: 1
+      - path: Leaf_019/Bone_1
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6/Bone_7
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6/Bone_7/Bone_8
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6/Bone_7/Bone_8/Bone_9
+        weight: 1
+      - path: Leaf_020
+        weight: 1
+      - path: Leaf_020/Bone_0
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2/Bone_3
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2/Bone_3/Bone_4
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2/Bone_3/Bone_4/Bone_5
+        weight: 1
+      - path: Leaf_021
+        weight: 1
+      - path: Leaf_021/Bone
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001/Bone_002
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001/Bone_002/Bone_003
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001/Bone_002/Bone_003/Bone_004
+        weight: 1
+      - path: LeafMesh
+        weight: 1
+      - path: LeafMesh_001
+        weight: 1
+      - path: LeafMesh_002
+        weight: 1
+      - path: LeafMesh_003
+        weight: 1
+      - path: LeafMesh_004
+        weight: 1
+      - path: LeafMesh_005
+        weight: 1
+      - path: LeafMesh_006
+        weight: 1
+      - path: LeafMesh_007
+        weight: 1
+      - path: LeafMesh_008
+        weight: 1
+      - path: LeafMesh_009
+        weight: 1
+      - path: LeafMesh_010
+        weight: 1
+      - path: LeafMesh_011
+        weight: 1
+      - path: LeafMesh_012
+        weight: 1
+      - path: LeafMesh_013
+        weight: 1
+      - path: LeafMesh_014
+        weight: 1
+      - path: LeafMesh_015
+        weight: 1
+      - path: LeafMesh_016
+        weight: 1
+      - path: LeafMesh_017
+        weight: 1
+      - path: LeafMesh_018
+        weight: 1
+      - path: LeafMesh_019
+        weight: 1
+      - path: LeafMesh_020
+        weight: 1
+      - path: LeafMesh_021
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Leaf_003Action
+      takeName: Leaf_003Action
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Leaf
+        weight: 1
+      - path: Leaf/Bone_100
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101/Bone_102
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101/Bone_102/Bone_103
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101/Bone_102/Bone_103/Bone_104
+        weight: 1
+      - path: Leaf_001
+        weight: 1
+      - path: Leaf_001/Bone_95
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96/Bone_97
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96/Bone_97/Bone_98
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96/Bone_97/Bone_98/Bone_99
+        weight: 1
+      - path: Leaf_002
+        weight: 1
+      - path: Leaf_002/Bone_90
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91/Bone_92
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91/Bone_92/Bone_93
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91/Bone_92/Bone_93/Bone_94
+        weight: 1
+      - path: Leaf_003
+        weight: 1
+      - path: Leaf_003/Bone_85
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86/Bone_87
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86/Bone_87/Bone_88
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86/Bone_87/Bone_88/Bone_89
+        weight: 1
+      - path: Leaf_004
+        weight: 1
+      - path: Leaf_004/Bone_80
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81/Bone_82
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81/Bone_82/Bone_83
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81/Bone_82/Bone_83/Bone_84
+        weight: 1
+      - path: Leaf_005
+        weight: 1
+      - path: Leaf_005/Bone_75
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76/Bone_77
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76/Bone_77/Bone_78
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76/Bone_77/Bone_78/Bone_79
+        weight: 1
+      - path: Leaf_006
+        weight: 1
+      - path: Leaf_006/Bone_70
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71/Bone_72
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71/Bone_72/Bone_73
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71/Bone_72/Bone_73/Bone_74
+        weight: 1
+      - path: Leaf_007
+        weight: 1
+      - path: Leaf_007/Bone_65
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66/Bone_67
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66/Bone_67/Bone_68
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66/Bone_67/Bone_68/Bone_69
+        weight: 1
+      - path: Leaf_008
+        weight: 1
+      - path: Leaf_008/Bone_60
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61/Bone_62
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61/Bone_62/Bone_63
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61/Bone_62/Bone_63/Bone_64
+        weight: 1
+      - path: Leaf_009
+        weight: 1
+      - path: Leaf_009/Bone_55
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56/Bone_57
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56/Bone_57/Bone_58
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56/Bone_57/Bone_58/Bone_59
+        weight: 1
+      - path: Leaf_010
+        weight: 1
+      - path: Leaf_010/Bone_50
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51/Bone_52
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51/Bone_52/Bone_53
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51/Bone_52/Bone_53/Bone_54
+        weight: 1
+      - path: Leaf_011
+        weight: 1
+      - path: Leaf_011/Bone_45
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46/Bone_47
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46/Bone_47/Bone_48
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46/Bone_47/Bone_48/Bone_49
+        weight: 1
+      - path: Leaf_012
+        weight: 1
+      - path: Leaf_012/Bone_40
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41/Bone_42
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41/Bone_42/Bone_43
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41/Bone_42/Bone_43/Bone_44
+        weight: 1
+      - path: Leaf_013
+        weight: 1
+      - path: Leaf_013/Bone_35
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36/Bone_37
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36/Bone_37/Bone_38
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36/Bone_37/Bone_38/Bone_39
+        weight: 1
+      - path: Leaf_014
+        weight: 1
+      - path: Leaf_014/Bone_30
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31/Bone_32
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31/Bone_32/Bone_33
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31/Bone_32/Bone_33/Bone_34
+        weight: 1
+      - path: Leaf_015
+        weight: 1
+      - path: Leaf_015/Bone_25
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26/Bone_27
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26/Bone_27/Bone_28
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26/Bone_27/Bone_28/Bone_29
+        weight: 1
+      - path: Leaf_016
+        weight: 1
+      - path: Leaf_016/Bone_20
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21/Bone_22
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21/Bone_22/Bone_23
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21/Bone_22/Bone_23/Bone_24
+        weight: 1
+      - path: Leaf_017
+        weight: 1
+      - path: Leaf_017/Bone_15
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16/Bone_17
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16/Bone_17/Bone_18
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16/Bone_17/Bone_18/Bone_19
+        weight: 1
+      - path: Leaf_018
+        weight: 1
+      - path: Leaf_018/Bone_10
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11/Bone_12
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11/Bone_12/Bone_13
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11/Bone_12/Bone_13/Bone_14
+        weight: 1
+      - path: Leaf_019
+        weight: 1
+      - path: Leaf_019/Bone_1
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6/Bone_7
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6/Bone_7/Bone_8
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6/Bone_7/Bone_8/Bone_9
+        weight: 1
+      - path: Leaf_020
+        weight: 1
+      - path: Leaf_020/Bone_0
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2/Bone_3
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2/Bone_3/Bone_4
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2/Bone_3/Bone_4/Bone_5
+        weight: 1
+      - path: Leaf_021
+        weight: 1
+      - path: Leaf_021/Bone
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001/Bone_002
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001/Bone_002/Bone_003
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001/Bone_002/Bone_003/Bone_004
+        weight: 1
+      - path: LeafMesh
+        weight: 1
+      - path: LeafMesh_001
+        weight: 1
+      - path: LeafMesh_002
+        weight: 1
+      - path: LeafMesh_003
+        weight: 1
+      - path: LeafMesh_004
+        weight: 1
+      - path: LeafMesh_005
+        weight: 1
+      - path: LeafMesh_006
+        weight: 1
+      - path: LeafMesh_007
+        weight: 1
+      - path: LeafMesh_008
+        weight: 1
+      - path: LeafMesh_009
+        weight: 1
+      - path: LeafMesh_010
+        weight: 1
+      - path: LeafMesh_011
+        weight: 1
+      - path: LeafMesh_012
+        weight: 1
+      - path: LeafMesh_013
+        weight: 1
+      - path: LeafMesh_014
+        weight: 1
+      - path: LeafMesh_015
+        weight: 1
+      - path: LeafMesh_016
+        weight: 1
+      - path: LeafMesh_017
+        weight: 1
+      - path: LeafMesh_018
+        weight: 1
+      - path: LeafMesh_019
+        weight: 1
+      - path: LeafMesh_020
+        weight: 1
+      - path: LeafMesh_021
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Leaf_004Action
+      takeName: Leaf_004Action
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Leaf
+        weight: 1
+      - path: Leaf/Bone_100
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101/Bone_102
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101/Bone_102/Bone_103
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101/Bone_102/Bone_103/Bone_104
+        weight: 1
+      - path: Leaf_001
+        weight: 1
+      - path: Leaf_001/Bone_95
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96/Bone_97
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96/Bone_97/Bone_98
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96/Bone_97/Bone_98/Bone_99
+        weight: 1
+      - path: Leaf_002
+        weight: 1
+      - path: Leaf_002/Bone_90
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91/Bone_92
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91/Bone_92/Bone_93
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91/Bone_92/Bone_93/Bone_94
+        weight: 1
+      - path: Leaf_003
+        weight: 1
+      - path: Leaf_003/Bone_85
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86/Bone_87
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86/Bone_87/Bone_88
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86/Bone_87/Bone_88/Bone_89
+        weight: 1
+      - path: Leaf_004
+        weight: 1
+      - path: Leaf_004/Bone_80
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81/Bone_82
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81/Bone_82/Bone_83
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81/Bone_82/Bone_83/Bone_84
+        weight: 1
+      - path: Leaf_005
+        weight: 1
+      - path: Leaf_005/Bone_75
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76/Bone_77
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76/Bone_77/Bone_78
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76/Bone_77/Bone_78/Bone_79
+        weight: 1
+      - path: Leaf_006
+        weight: 1
+      - path: Leaf_006/Bone_70
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71/Bone_72
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71/Bone_72/Bone_73
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71/Bone_72/Bone_73/Bone_74
+        weight: 1
+      - path: Leaf_007
+        weight: 1
+      - path: Leaf_007/Bone_65
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66/Bone_67
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66/Bone_67/Bone_68
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66/Bone_67/Bone_68/Bone_69
+        weight: 1
+      - path: Leaf_008
+        weight: 1
+      - path: Leaf_008/Bone_60
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61/Bone_62
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61/Bone_62/Bone_63
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61/Bone_62/Bone_63/Bone_64
+        weight: 1
+      - path: Leaf_009
+        weight: 1
+      - path: Leaf_009/Bone_55
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56/Bone_57
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56/Bone_57/Bone_58
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56/Bone_57/Bone_58/Bone_59
+        weight: 1
+      - path: Leaf_010
+        weight: 1
+      - path: Leaf_010/Bone_50
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51/Bone_52
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51/Bone_52/Bone_53
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51/Bone_52/Bone_53/Bone_54
+        weight: 1
+      - path: Leaf_011
+        weight: 1
+      - path: Leaf_011/Bone_45
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46/Bone_47
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46/Bone_47/Bone_48
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46/Bone_47/Bone_48/Bone_49
+        weight: 1
+      - path: Leaf_012
+        weight: 1
+      - path: Leaf_012/Bone_40
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41/Bone_42
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41/Bone_42/Bone_43
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41/Bone_42/Bone_43/Bone_44
+        weight: 1
+      - path: Leaf_013
+        weight: 1
+      - path: Leaf_013/Bone_35
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36/Bone_37
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36/Bone_37/Bone_38
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36/Bone_37/Bone_38/Bone_39
+        weight: 1
+      - path: Leaf_014
+        weight: 1
+      - path: Leaf_014/Bone_30
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31/Bone_32
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31/Bone_32/Bone_33
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31/Bone_32/Bone_33/Bone_34
+        weight: 1
+      - path: Leaf_015
+        weight: 1
+      - path: Leaf_015/Bone_25
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26/Bone_27
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26/Bone_27/Bone_28
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26/Bone_27/Bone_28/Bone_29
+        weight: 1
+      - path: Leaf_016
+        weight: 1
+      - path: Leaf_016/Bone_20
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21/Bone_22
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21/Bone_22/Bone_23
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21/Bone_22/Bone_23/Bone_24
+        weight: 1
+      - path: Leaf_017
+        weight: 1
+      - path: Leaf_017/Bone_15
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16/Bone_17
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16/Bone_17/Bone_18
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16/Bone_17/Bone_18/Bone_19
+        weight: 1
+      - path: Leaf_018
+        weight: 1
+      - path: Leaf_018/Bone_10
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11/Bone_12
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11/Bone_12/Bone_13
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11/Bone_12/Bone_13/Bone_14
+        weight: 1
+      - path: Leaf_019
+        weight: 1
+      - path: Leaf_019/Bone_1
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6/Bone_7
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6/Bone_7/Bone_8
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6/Bone_7/Bone_8/Bone_9
+        weight: 1
+      - path: Leaf_020
+        weight: 1
+      - path: Leaf_020/Bone_0
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2/Bone_3
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2/Bone_3/Bone_4
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2/Bone_3/Bone_4/Bone_5
+        weight: 1
+      - path: Leaf_021
+        weight: 1
+      - path: Leaf_021/Bone
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001/Bone_002
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001/Bone_002/Bone_003
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001/Bone_002/Bone_003/Bone_004
+        weight: 1
+      - path: LeafMesh
+        weight: 1
+      - path: LeafMesh_001
+        weight: 1
+      - path: LeafMesh_002
+        weight: 1
+      - path: LeafMesh_003
+        weight: 1
+      - path: LeafMesh_004
+        weight: 1
+      - path: LeafMesh_005
+        weight: 1
+      - path: LeafMesh_006
+        weight: 1
+      - path: LeafMesh_007
+        weight: 1
+      - path: LeafMesh_008
+        weight: 1
+      - path: LeafMesh_009
+        weight: 1
+      - path: LeafMesh_010
+        weight: 1
+      - path: LeafMesh_011
+        weight: 1
+      - path: LeafMesh_012
+        weight: 1
+      - path: LeafMesh_013
+        weight: 1
+      - path: LeafMesh_014
+        weight: 1
+      - path: LeafMesh_015
+        weight: 1
+      - path: LeafMesh_016
+        weight: 1
+      - path: LeafMesh_017
+        weight: 1
+      - path: LeafMesh_018
+        weight: 1
+      - path: LeafMesh_019
+        weight: 1
+      - path: LeafMesh_020
+        weight: 1
+      - path: LeafMesh_021
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Leaf_005Action
+      takeName: Leaf_005Action
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Leaf
+        weight: 1
+      - path: Leaf/Bone_100
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101/Bone_102
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101/Bone_102/Bone_103
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101/Bone_102/Bone_103/Bone_104
+        weight: 1
+      - path: Leaf_001
+        weight: 1
+      - path: Leaf_001/Bone_95
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96/Bone_97
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96/Bone_97/Bone_98
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96/Bone_97/Bone_98/Bone_99
+        weight: 1
+      - path: Leaf_002
+        weight: 1
+      - path: Leaf_002/Bone_90
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91/Bone_92
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91/Bone_92/Bone_93
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91/Bone_92/Bone_93/Bone_94
+        weight: 1
+      - path: Leaf_003
+        weight: 1
+      - path: Leaf_003/Bone_85
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86/Bone_87
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86/Bone_87/Bone_88
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86/Bone_87/Bone_88/Bone_89
+        weight: 1
+      - path: Leaf_004
+        weight: 1
+      - path: Leaf_004/Bone_80
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81/Bone_82
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81/Bone_82/Bone_83
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81/Bone_82/Bone_83/Bone_84
+        weight: 1
+      - path: Leaf_005
+        weight: 1
+      - path: Leaf_005/Bone_75
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76/Bone_77
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76/Bone_77/Bone_78
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76/Bone_77/Bone_78/Bone_79
+        weight: 1
+      - path: Leaf_006
+        weight: 1
+      - path: Leaf_006/Bone_70
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71/Bone_72
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71/Bone_72/Bone_73
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71/Bone_72/Bone_73/Bone_74
+        weight: 1
+      - path: Leaf_007
+        weight: 1
+      - path: Leaf_007/Bone_65
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66/Bone_67
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66/Bone_67/Bone_68
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66/Bone_67/Bone_68/Bone_69
+        weight: 1
+      - path: Leaf_008
+        weight: 1
+      - path: Leaf_008/Bone_60
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61/Bone_62
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61/Bone_62/Bone_63
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61/Bone_62/Bone_63/Bone_64
+        weight: 1
+      - path: Leaf_009
+        weight: 1
+      - path: Leaf_009/Bone_55
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56/Bone_57
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56/Bone_57/Bone_58
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56/Bone_57/Bone_58/Bone_59
+        weight: 1
+      - path: Leaf_010
+        weight: 1
+      - path: Leaf_010/Bone_50
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51/Bone_52
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51/Bone_52/Bone_53
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51/Bone_52/Bone_53/Bone_54
+        weight: 1
+      - path: Leaf_011
+        weight: 1
+      - path: Leaf_011/Bone_45
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46/Bone_47
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46/Bone_47/Bone_48
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46/Bone_47/Bone_48/Bone_49
+        weight: 1
+      - path: Leaf_012
+        weight: 1
+      - path: Leaf_012/Bone_40
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41/Bone_42
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41/Bone_42/Bone_43
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41/Bone_42/Bone_43/Bone_44
+        weight: 1
+      - path: Leaf_013
+        weight: 1
+      - path: Leaf_013/Bone_35
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36/Bone_37
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36/Bone_37/Bone_38
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36/Bone_37/Bone_38/Bone_39
+        weight: 1
+      - path: Leaf_014
+        weight: 1
+      - path: Leaf_014/Bone_30
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31/Bone_32
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31/Bone_32/Bone_33
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31/Bone_32/Bone_33/Bone_34
+        weight: 1
+      - path: Leaf_015
+        weight: 1
+      - path: Leaf_015/Bone_25
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26/Bone_27
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26/Bone_27/Bone_28
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26/Bone_27/Bone_28/Bone_29
+        weight: 1
+      - path: Leaf_016
+        weight: 1
+      - path: Leaf_016/Bone_20
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21/Bone_22
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21/Bone_22/Bone_23
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21/Bone_22/Bone_23/Bone_24
+        weight: 1
+      - path: Leaf_017
+        weight: 1
+      - path: Leaf_017/Bone_15
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16/Bone_17
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16/Bone_17/Bone_18
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16/Bone_17/Bone_18/Bone_19
+        weight: 1
+      - path: Leaf_018
+        weight: 1
+      - path: Leaf_018/Bone_10
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11/Bone_12
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11/Bone_12/Bone_13
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11/Bone_12/Bone_13/Bone_14
+        weight: 1
+      - path: Leaf_019
+        weight: 1
+      - path: Leaf_019/Bone_1
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6/Bone_7
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6/Bone_7/Bone_8
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6/Bone_7/Bone_8/Bone_9
+        weight: 1
+      - path: Leaf_020
+        weight: 1
+      - path: Leaf_020/Bone_0
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2/Bone_3
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2/Bone_3/Bone_4
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2/Bone_3/Bone_4/Bone_5
+        weight: 1
+      - path: Leaf_021
+        weight: 1
+      - path: Leaf_021/Bone
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001/Bone_002
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001/Bone_002/Bone_003
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001/Bone_002/Bone_003/Bone_004
+        weight: 1
+      - path: LeafMesh
+        weight: 1
+      - path: LeafMesh_001
+        weight: 1
+      - path: LeafMesh_002
+        weight: 1
+      - path: LeafMesh_003
+        weight: 1
+      - path: LeafMesh_004
+        weight: 1
+      - path: LeafMesh_005
+        weight: 1
+      - path: LeafMesh_006
+        weight: 1
+      - path: LeafMesh_007
+        weight: 1
+      - path: LeafMesh_008
+        weight: 1
+      - path: LeafMesh_009
+        weight: 1
+      - path: LeafMesh_010
+        weight: 1
+      - path: LeafMesh_011
+        weight: 1
+      - path: LeafMesh_012
+        weight: 1
+      - path: LeafMesh_013
+        weight: 1
+      - path: LeafMesh_014
+        weight: 1
+      - path: LeafMesh_015
+        weight: 1
+      - path: LeafMesh_016
+        weight: 1
+      - path: LeafMesh_017
+        weight: 1
+      - path: LeafMesh_018
+        weight: 1
+      - path: LeafMesh_019
+        weight: 1
+      - path: LeafMesh_020
+        weight: 1
+      - path: LeafMesh_021
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Leaf_006Action
+      takeName: Leaf_006Action
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Leaf
+        weight: 1
+      - path: Leaf/Bone_100
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101/Bone_102
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101/Bone_102/Bone_103
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101/Bone_102/Bone_103/Bone_104
+        weight: 1
+      - path: Leaf_001
+        weight: 1
+      - path: Leaf_001/Bone_95
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96/Bone_97
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96/Bone_97/Bone_98
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96/Bone_97/Bone_98/Bone_99
+        weight: 1
+      - path: Leaf_002
+        weight: 1
+      - path: Leaf_002/Bone_90
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91/Bone_92
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91/Bone_92/Bone_93
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91/Bone_92/Bone_93/Bone_94
+        weight: 1
+      - path: Leaf_003
+        weight: 1
+      - path: Leaf_003/Bone_85
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86/Bone_87
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86/Bone_87/Bone_88
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86/Bone_87/Bone_88/Bone_89
+        weight: 1
+      - path: Leaf_004
+        weight: 1
+      - path: Leaf_004/Bone_80
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81/Bone_82
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81/Bone_82/Bone_83
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81/Bone_82/Bone_83/Bone_84
+        weight: 1
+      - path: Leaf_005
+        weight: 1
+      - path: Leaf_005/Bone_75
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76/Bone_77
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76/Bone_77/Bone_78
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76/Bone_77/Bone_78/Bone_79
+        weight: 1
+      - path: Leaf_006
+        weight: 1
+      - path: Leaf_006/Bone_70
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71/Bone_72
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71/Bone_72/Bone_73
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71/Bone_72/Bone_73/Bone_74
+        weight: 1
+      - path: Leaf_007
+        weight: 1
+      - path: Leaf_007/Bone_65
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66/Bone_67
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66/Bone_67/Bone_68
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66/Bone_67/Bone_68/Bone_69
+        weight: 1
+      - path: Leaf_008
+        weight: 1
+      - path: Leaf_008/Bone_60
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61/Bone_62
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61/Bone_62/Bone_63
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61/Bone_62/Bone_63/Bone_64
+        weight: 1
+      - path: Leaf_009
+        weight: 1
+      - path: Leaf_009/Bone_55
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56/Bone_57
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56/Bone_57/Bone_58
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56/Bone_57/Bone_58/Bone_59
+        weight: 1
+      - path: Leaf_010
+        weight: 1
+      - path: Leaf_010/Bone_50
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51/Bone_52
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51/Bone_52/Bone_53
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51/Bone_52/Bone_53/Bone_54
+        weight: 1
+      - path: Leaf_011
+        weight: 1
+      - path: Leaf_011/Bone_45
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46/Bone_47
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46/Bone_47/Bone_48
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46/Bone_47/Bone_48/Bone_49
+        weight: 1
+      - path: Leaf_012
+        weight: 1
+      - path: Leaf_012/Bone_40
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41/Bone_42
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41/Bone_42/Bone_43
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41/Bone_42/Bone_43/Bone_44
+        weight: 1
+      - path: Leaf_013
+        weight: 1
+      - path: Leaf_013/Bone_35
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36/Bone_37
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36/Bone_37/Bone_38
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36/Bone_37/Bone_38/Bone_39
+        weight: 1
+      - path: Leaf_014
+        weight: 1
+      - path: Leaf_014/Bone_30
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31/Bone_32
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31/Bone_32/Bone_33
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31/Bone_32/Bone_33/Bone_34
+        weight: 1
+      - path: Leaf_015
+        weight: 1
+      - path: Leaf_015/Bone_25
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26/Bone_27
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26/Bone_27/Bone_28
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26/Bone_27/Bone_28/Bone_29
+        weight: 1
+      - path: Leaf_016
+        weight: 1
+      - path: Leaf_016/Bone_20
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21/Bone_22
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21/Bone_22/Bone_23
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21/Bone_22/Bone_23/Bone_24
+        weight: 1
+      - path: Leaf_017
+        weight: 1
+      - path: Leaf_017/Bone_15
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16/Bone_17
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16/Bone_17/Bone_18
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16/Bone_17/Bone_18/Bone_19
+        weight: 1
+      - path: Leaf_018
+        weight: 1
+      - path: Leaf_018/Bone_10
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11/Bone_12
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11/Bone_12/Bone_13
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11/Bone_12/Bone_13/Bone_14
+        weight: 1
+      - path: Leaf_019
+        weight: 1
+      - path: Leaf_019/Bone_1
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6/Bone_7
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6/Bone_7/Bone_8
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6/Bone_7/Bone_8/Bone_9
+        weight: 1
+      - path: Leaf_020
+        weight: 1
+      - path: Leaf_020/Bone_0
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2/Bone_3
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2/Bone_3/Bone_4
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2/Bone_3/Bone_4/Bone_5
+        weight: 1
+      - path: Leaf_021
+        weight: 1
+      - path: Leaf_021/Bone
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001/Bone_002
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001/Bone_002/Bone_003
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001/Bone_002/Bone_003/Bone_004
+        weight: 1
+      - path: LeafMesh
+        weight: 1
+      - path: LeafMesh_001
+        weight: 1
+      - path: LeafMesh_002
+        weight: 1
+      - path: LeafMesh_003
+        weight: 1
+      - path: LeafMesh_004
+        weight: 1
+      - path: LeafMesh_005
+        weight: 1
+      - path: LeafMesh_006
+        weight: 1
+      - path: LeafMesh_007
+        weight: 1
+      - path: LeafMesh_008
+        weight: 1
+      - path: LeafMesh_009
+        weight: 1
+      - path: LeafMesh_010
+        weight: 1
+      - path: LeafMesh_011
+        weight: 1
+      - path: LeafMesh_012
+        weight: 1
+      - path: LeafMesh_013
+        weight: 1
+      - path: LeafMesh_014
+        weight: 1
+      - path: LeafMesh_015
+        weight: 1
+      - path: LeafMesh_016
+        weight: 1
+      - path: LeafMesh_017
+        weight: 1
+      - path: LeafMesh_018
+        weight: 1
+      - path: LeafMesh_019
+        weight: 1
+      - path: LeafMesh_020
+        weight: 1
+      - path: LeafMesh_021
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Leaf_007Action
+      takeName: Leaf_007Action
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Leaf
+        weight: 1
+      - path: Leaf/Bone_100
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101/Bone_102
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101/Bone_102/Bone_103
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101/Bone_102/Bone_103/Bone_104
+        weight: 1
+      - path: Leaf_001
+        weight: 1
+      - path: Leaf_001/Bone_95
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96/Bone_97
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96/Bone_97/Bone_98
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96/Bone_97/Bone_98/Bone_99
+        weight: 1
+      - path: Leaf_002
+        weight: 1
+      - path: Leaf_002/Bone_90
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91/Bone_92
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91/Bone_92/Bone_93
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91/Bone_92/Bone_93/Bone_94
+        weight: 1
+      - path: Leaf_003
+        weight: 1
+      - path: Leaf_003/Bone_85
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86/Bone_87
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86/Bone_87/Bone_88
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86/Bone_87/Bone_88/Bone_89
+        weight: 1
+      - path: Leaf_004
+        weight: 1
+      - path: Leaf_004/Bone_80
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81/Bone_82
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81/Bone_82/Bone_83
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81/Bone_82/Bone_83/Bone_84
+        weight: 1
+      - path: Leaf_005
+        weight: 1
+      - path: Leaf_005/Bone_75
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76/Bone_77
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76/Bone_77/Bone_78
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76/Bone_77/Bone_78/Bone_79
+        weight: 1
+      - path: Leaf_006
+        weight: 1
+      - path: Leaf_006/Bone_70
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71/Bone_72
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71/Bone_72/Bone_73
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71/Bone_72/Bone_73/Bone_74
+        weight: 1
+      - path: Leaf_007
+        weight: 1
+      - path: Leaf_007/Bone_65
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66/Bone_67
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66/Bone_67/Bone_68
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66/Bone_67/Bone_68/Bone_69
+        weight: 1
+      - path: Leaf_008
+        weight: 1
+      - path: Leaf_008/Bone_60
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61/Bone_62
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61/Bone_62/Bone_63
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61/Bone_62/Bone_63/Bone_64
+        weight: 1
+      - path: Leaf_009
+        weight: 1
+      - path: Leaf_009/Bone_55
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56/Bone_57
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56/Bone_57/Bone_58
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56/Bone_57/Bone_58/Bone_59
+        weight: 1
+      - path: Leaf_010
+        weight: 1
+      - path: Leaf_010/Bone_50
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51/Bone_52
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51/Bone_52/Bone_53
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51/Bone_52/Bone_53/Bone_54
+        weight: 1
+      - path: Leaf_011
+        weight: 1
+      - path: Leaf_011/Bone_45
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46/Bone_47
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46/Bone_47/Bone_48
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46/Bone_47/Bone_48/Bone_49
+        weight: 1
+      - path: Leaf_012
+        weight: 1
+      - path: Leaf_012/Bone_40
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41/Bone_42
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41/Bone_42/Bone_43
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41/Bone_42/Bone_43/Bone_44
+        weight: 1
+      - path: Leaf_013
+        weight: 1
+      - path: Leaf_013/Bone_35
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36/Bone_37
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36/Bone_37/Bone_38
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36/Bone_37/Bone_38/Bone_39
+        weight: 1
+      - path: Leaf_014
+        weight: 1
+      - path: Leaf_014/Bone_30
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31/Bone_32
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31/Bone_32/Bone_33
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31/Bone_32/Bone_33/Bone_34
+        weight: 1
+      - path: Leaf_015
+        weight: 1
+      - path: Leaf_015/Bone_25
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26/Bone_27
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26/Bone_27/Bone_28
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26/Bone_27/Bone_28/Bone_29
+        weight: 1
+      - path: Leaf_016
+        weight: 1
+      - path: Leaf_016/Bone_20
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21/Bone_22
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21/Bone_22/Bone_23
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21/Bone_22/Bone_23/Bone_24
+        weight: 1
+      - path: Leaf_017
+        weight: 1
+      - path: Leaf_017/Bone_15
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16/Bone_17
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16/Bone_17/Bone_18
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16/Bone_17/Bone_18/Bone_19
+        weight: 1
+      - path: Leaf_018
+        weight: 1
+      - path: Leaf_018/Bone_10
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11/Bone_12
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11/Bone_12/Bone_13
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11/Bone_12/Bone_13/Bone_14
+        weight: 1
+      - path: Leaf_019
+        weight: 1
+      - path: Leaf_019/Bone_1
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6/Bone_7
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6/Bone_7/Bone_8
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6/Bone_7/Bone_8/Bone_9
+        weight: 1
+      - path: Leaf_020
+        weight: 1
+      - path: Leaf_020/Bone_0
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2/Bone_3
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2/Bone_3/Bone_4
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2/Bone_3/Bone_4/Bone_5
+        weight: 1
+      - path: Leaf_021
+        weight: 1
+      - path: Leaf_021/Bone
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001/Bone_002
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001/Bone_002/Bone_003
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001/Bone_002/Bone_003/Bone_004
+        weight: 1
+      - path: LeafMesh
+        weight: 1
+      - path: LeafMesh_001
+        weight: 1
+      - path: LeafMesh_002
+        weight: 1
+      - path: LeafMesh_003
+        weight: 1
+      - path: LeafMesh_004
+        weight: 1
+      - path: LeafMesh_005
+        weight: 1
+      - path: LeafMesh_006
+        weight: 1
+      - path: LeafMesh_007
+        weight: 1
+      - path: LeafMesh_008
+        weight: 1
+      - path: LeafMesh_009
+        weight: 1
+      - path: LeafMesh_010
+        weight: 1
+      - path: LeafMesh_011
+        weight: 1
+      - path: LeafMesh_012
+        weight: 1
+      - path: LeafMesh_013
+        weight: 1
+      - path: LeafMesh_014
+        weight: 1
+      - path: LeafMesh_015
+        weight: 1
+      - path: LeafMesh_016
+        weight: 1
+      - path: LeafMesh_017
+        weight: 1
+      - path: LeafMesh_018
+        weight: 1
+      - path: LeafMesh_019
+        weight: 1
+      - path: LeafMesh_020
+        weight: 1
+      - path: LeafMesh_021
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Leaf_018Action
+      takeName: Leaf_018Action
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Leaf
+        weight: 1
+      - path: Leaf/Bone_100
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101/Bone_102
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101/Bone_102/Bone_103
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101/Bone_102/Bone_103/Bone_104
+        weight: 1
+      - path: Leaf_001
+        weight: 1
+      - path: Leaf_001/Bone_95
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96/Bone_97
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96/Bone_97/Bone_98
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96/Bone_97/Bone_98/Bone_99
+        weight: 1
+      - path: Leaf_002
+        weight: 1
+      - path: Leaf_002/Bone_90
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91/Bone_92
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91/Bone_92/Bone_93
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91/Bone_92/Bone_93/Bone_94
+        weight: 1
+      - path: Leaf_003
+        weight: 1
+      - path: Leaf_003/Bone_85
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86/Bone_87
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86/Bone_87/Bone_88
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86/Bone_87/Bone_88/Bone_89
+        weight: 1
+      - path: Leaf_004
+        weight: 1
+      - path: Leaf_004/Bone_80
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81/Bone_82
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81/Bone_82/Bone_83
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81/Bone_82/Bone_83/Bone_84
+        weight: 1
+      - path: Leaf_005
+        weight: 1
+      - path: Leaf_005/Bone_75
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76/Bone_77
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76/Bone_77/Bone_78
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76/Bone_77/Bone_78/Bone_79
+        weight: 1
+      - path: Leaf_006
+        weight: 1
+      - path: Leaf_006/Bone_70
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71/Bone_72
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71/Bone_72/Bone_73
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71/Bone_72/Bone_73/Bone_74
+        weight: 1
+      - path: Leaf_007
+        weight: 1
+      - path: Leaf_007/Bone_65
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66/Bone_67
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66/Bone_67/Bone_68
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66/Bone_67/Bone_68/Bone_69
+        weight: 1
+      - path: Leaf_008
+        weight: 1
+      - path: Leaf_008/Bone_60
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61/Bone_62
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61/Bone_62/Bone_63
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61/Bone_62/Bone_63/Bone_64
+        weight: 1
+      - path: Leaf_009
+        weight: 1
+      - path: Leaf_009/Bone_55
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56/Bone_57
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56/Bone_57/Bone_58
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56/Bone_57/Bone_58/Bone_59
+        weight: 1
+      - path: Leaf_010
+        weight: 1
+      - path: Leaf_010/Bone_50
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51/Bone_52
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51/Bone_52/Bone_53
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51/Bone_52/Bone_53/Bone_54
+        weight: 1
+      - path: Leaf_011
+        weight: 1
+      - path: Leaf_011/Bone_45
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46/Bone_47
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46/Bone_47/Bone_48
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46/Bone_47/Bone_48/Bone_49
+        weight: 1
+      - path: Leaf_012
+        weight: 1
+      - path: Leaf_012/Bone_40
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41/Bone_42
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41/Bone_42/Bone_43
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41/Bone_42/Bone_43/Bone_44
+        weight: 1
+      - path: Leaf_013
+        weight: 1
+      - path: Leaf_013/Bone_35
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36/Bone_37
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36/Bone_37/Bone_38
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36/Bone_37/Bone_38/Bone_39
+        weight: 1
+      - path: Leaf_014
+        weight: 1
+      - path: Leaf_014/Bone_30
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31/Bone_32
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31/Bone_32/Bone_33
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31/Bone_32/Bone_33/Bone_34
+        weight: 1
+      - path: Leaf_015
+        weight: 1
+      - path: Leaf_015/Bone_25
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26/Bone_27
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26/Bone_27/Bone_28
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26/Bone_27/Bone_28/Bone_29
+        weight: 1
+      - path: Leaf_016
+        weight: 1
+      - path: Leaf_016/Bone_20
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21/Bone_22
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21/Bone_22/Bone_23
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21/Bone_22/Bone_23/Bone_24
+        weight: 1
+      - path: Leaf_017
+        weight: 1
+      - path: Leaf_017/Bone_15
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16/Bone_17
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16/Bone_17/Bone_18
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16/Bone_17/Bone_18/Bone_19
+        weight: 1
+      - path: Leaf_018
+        weight: 1
+      - path: Leaf_018/Bone_10
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11/Bone_12
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11/Bone_12/Bone_13
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11/Bone_12/Bone_13/Bone_14
+        weight: 1
+      - path: Leaf_019
+        weight: 1
+      - path: Leaf_019/Bone_1
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6/Bone_7
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6/Bone_7/Bone_8
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6/Bone_7/Bone_8/Bone_9
+        weight: 1
+      - path: Leaf_020
+        weight: 1
+      - path: Leaf_020/Bone_0
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2/Bone_3
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2/Bone_3/Bone_4
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2/Bone_3/Bone_4/Bone_5
+        weight: 1
+      - path: Leaf_021
+        weight: 1
+      - path: Leaf_021/Bone
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001/Bone_002
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001/Bone_002/Bone_003
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001/Bone_002/Bone_003/Bone_004
+        weight: 1
+      - path: LeafMesh
+        weight: 1
+      - path: LeafMesh_001
+        weight: 1
+      - path: LeafMesh_002
+        weight: 1
+      - path: LeafMesh_003
+        weight: 1
+      - path: LeafMesh_004
+        weight: 1
+      - path: LeafMesh_005
+        weight: 1
+      - path: LeafMesh_006
+        weight: 1
+      - path: LeafMesh_007
+        weight: 1
+      - path: LeafMesh_008
+        weight: 1
+      - path: LeafMesh_009
+        weight: 1
+      - path: LeafMesh_010
+        weight: 1
+      - path: LeafMesh_011
+        weight: 1
+      - path: LeafMesh_012
+        weight: 1
+      - path: LeafMesh_013
+        weight: 1
+      - path: LeafMesh_014
+        weight: 1
+      - path: LeafMesh_015
+        weight: 1
+      - path: LeafMesh_016
+        weight: 1
+      - path: LeafMesh_017
+        weight: 1
+      - path: LeafMesh_018
+        weight: 1
+      - path: LeafMesh_019
+        weight: 1
+      - path: LeafMesh_020
+        weight: 1
+      - path: LeafMesh_021
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Leaf_019Action
+      takeName: Leaf_019Action
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Leaf
+        weight: 1
+      - path: Leaf/Bone_100
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101/Bone_102
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101/Bone_102/Bone_103
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101/Bone_102/Bone_103/Bone_104
+        weight: 1
+      - path: Leaf_001
+        weight: 1
+      - path: Leaf_001/Bone_95
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96/Bone_97
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96/Bone_97/Bone_98
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96/Bone_97/Bone_98/Bone_99
+        weight: 1
+      - path: Leaf_002
+        weight: 1
+      - path: Leaf_002/Bone_90
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91/Bone_92
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91/Bone_92/Bone_93
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91/Bone_92/Bone_93/Bone_94
+        weight: 1
+      - path: Leaf_003
+        weight: 1
+      - path: Leaf_003/Bone_85
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86/Bone_87
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86/Bone_87/Bone_88
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86/Bone_87/Bone_88/Bone_89
+        weight: 1
+      - path: Leaf_004
+        weight: 1
+      - path: Leaf_004/Bone_80
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81/Bone_82
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81/Bone_82/Bone_83
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81/Bone_82/Bone_83/Bone_84
+        weight: 1
+      - path: Leaf_005
+        weight: 1
+      - path: Leaf_005/Bone_75
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76/Bone_77
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76/Bone_77/Bone_78
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76/Bone_77/Bone_78/Bone_79
+        weight: 1
+      - path: Leaf_006
+        weight: 1
+      - path: Leaf_006/Bone_70
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71/Bone_72
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71/Bone_72/Bone_73
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71/Bone_72/Bone_73/Bone_74
+        weight: 1
+      - path: Leaf_007
+        weight: 1
+      - path: Leaf_007/Bone_65
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66/Bone_67
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66/Bone_67/Bone_68
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66/Bone_67/Bone_68/Bone_69
+        weight: 1
+      - path: Leaf_008
+        weight: 1
+      - path: Leaf_008/Bone_60
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61/Bone_62
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61/Bone_62/Bone_63
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61/Bone_62/Bone_63/Bone_64
+        weight: 1
+      - path: Leaf_009
+        weight: 1
+      - path: Leaf_009/Bone_55
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56/Bone_57
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56/Bone_57/Bone_58
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56/Bone_57/Bone_58/Bone_59
+        weight: 1
+      - path: Leaf_010
+        weight: 1
+      - path: Leaf_010/Bone_50
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51/Bone_52
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51/Bone_52/Bone_53
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51/Bone_52/Bone_53/Bone_54
+        weight: 1
+      - path: Leaf_011
+        weight: 1
+      - path: Leaf_011/Bone_45
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46/Bone_47
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46/Bone_47/Bone_48
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46/Bone_47/Bone_48/Bone_49
+        weight: 1
+      - path: Leaf_012
+        weight: 1
+      - path: Leaf_012/Bone_40
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41/Bone_42
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41/Bone_42/Bone_43
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41/Bone_42/Bone_43/Bone_44
+        weight: 1
+      - path: Leaf_013
+        weight: 1
+      - path: Leaf_013/Bone_35
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36/Bone_37
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36/Bone_37/Bone_38
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36/Bone_37/Bone_38/Bone_39
+        weight: 1
+      - path: Leaf_014
+        weight: 1
+      - path: Leaf_014/Bone_30
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31/Bone_32
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31/Bone_32/Bone_33
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31/Bone_32/Bone_33/Bone_34
+        weight: 1
+      - path: Leaf_015
+        weight: 1
+      - path: Leaf_015/Bone_25
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26/Bone_27
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26/Bone_27/Bone_28
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26/Bone_27/Bone_28/Bone_29
+        weight: 1
+      - path: Leaf_016
+        weight: 1
+      - path: Leaf_016/Bone_20
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21/Bone_22
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21/Bone_22/Bone_23
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21/Bone_22/Bone_23/Bone_24
+        weight: 1
+      - path: Leaf_017
+        weight: 1
+      - path: Leaf_017/Bone_15
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16/Bone_17
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16/Bone_17/Bone_18
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16/Bone_17/Bone_18/Bone_19
+        weight: 1
+      - path: Leaf_018
+        weight: 1
+      - path: Leaf_018/Bone_10
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11/Bone_12
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11/Bone_12/Bone_13
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11/Bone_12/Bone_13/Bone_14
+        weight: 1
+      - path: Leaf_019
+        weight: 1
+      - path: Leaf_019/Bone_1
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6/Bone_7
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6/Bone_7/Bone_8
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6/Bone_7/Bone_8/Bone_9
+        weight: 1
+      - path: Leaf_020
+        weight: 1
+      - path: Leaf_020/Bone_0
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2/Bone_3
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2/Bone_3/Bone_4
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2/Bone_3/Bone_4/Bone_5
+        weight: 1
+      - path: Leaf_021
+        weight: 1
+      - path: Leaf_021/Bone
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001/Bone_002
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001/Bone_002/Bone_003
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001/Bone_002/Bone_003/Bone_004
+        weight: 1
+      - path: LeafMesh
+        weight: 1
+      - path: LeafMesh_001
+        weight: 1
+      - path: LeafMesh_002
+        weight: 1
+      - path: LeafMesh_003
+        weight: 1
+      - path: LeafMesh_004
+        weight: 1
+      - path: LeafMesh_005
+        weight: 1
+      - path: LeafMesh_006
+        weight: 1
+      - path: LeafMesh_007
+        weight: 1
+      - path: LeafMesh_008
+        weight: 1
+      - path: LeafMesh_009
+        weight: 1
+      - path: LeafMesh_010
+        weight: 1
+      - path: LeafMesh_011
+        weight: 1
+      - path: LeafMesh_012
+        weight: 1
+      - path: LeafMesh_013
+        weight: 1
+      - path: LeafMesh_014
+        weight: 1
+      - path: LeafMesh_015
+        weight: 1
+      - path: LeafMesh_016
+        weight: 1
+      - path: LeafMesh_017
+        weight: 1
+      - path: LeafMesh_018
+        weight: 1
+      - path: LeafMesh_019
+        weight: 1
+      - path: LeafMesh_020
+        weight: 1
+      - path: LeafMesh_021
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Leaf_020Action
+      takeName: Leaf_020Action
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Leaf
+        weight: 1
+      - path: Leaf/Bone_100
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101/Bone_102
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101/Bone_102/Bone_103
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101/Bone_102/Bone_103/Bone_104
+        weight: 1
+      - path: Leaf_001
+        weight: 1
+      - path: Leaf_001/Bone_95
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96/Bone_97
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96/Bone_97/Bone_98
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96/Bone_97/Bone_98/Bone_99
+        weight: 1
+      - path: Leaf_002
+        weight: 1
+      - path: Leaf_002/Bone_90
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91/Bone_92
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91/Bone_92/Bone_93
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91/Bone_92/Bone_93/Bone_94
+        weight: 1
+      - path: Leaf_003
+        weight: 1
+      - path: Leaf_003/Bone_85
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86/Bone_87
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86/Bone_87/Bone_88
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86/Bone_87/Bone_88/Bone_89
+        weight: 1
+      - path: Leaf_004
+        weight: 1
+      - path: Leaf_004/Bone_80
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81/Bone_82
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81/Bone_82/Bone_83
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81/Bone_82/Bone_83/Bone_84
+        weight: 1
+      - path: Leaf_005
+        weight: 1
+      - path: Leaf_005/Bone_75
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76/Bone_77
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76/Bone_77/Bone_78
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76/Bone_77/Bone_78/Bone_79
+        weight: 1
+      - path: Leaf_006
+        weight: 1
+      - path: Leaf_006/Bone_70
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71/Bone_72
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71/Bone_72/Bone_73
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71/Bone_72/Bone_73/Bone_74
+        weight: 1
+      - path: Leaf_007
+        weight: 1
+      - path: Leaf_007/Bone_65
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66/Bone_67
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66/Bone_67/Bone_68
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66/Bone_67/Bone_68/Bone_69
+        weight: 1
+      - path: Leaf_008
+        weight: 1
+      - path: Leaf_008/Bone_60
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61/Bone_62
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61/Bone_62/Bone_63
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61/Bone_62/Bone_63/Bone_64
+        weight: 1
+      - path: Leaf_009
+        weight: 1
+      - path: Leaf_009/Bone_55
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56/Bone_57
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56/Bone_57/Bone_58
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56/Bone_57/Bone_58/Bone_59
+        weight: 1
+      - path: Leaf_010
+        weight: 1
+      - path: Leaf_010/Bone_50
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51/Bone_52
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51/Bone_52/Bone_53
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51/Bone_52/Bone_53/Bone_54
+        weight: 1
+      - path: Leaf_011
+        weight: 1
+      - path: Leaf_011/Bone_45
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46/Bone_47
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46/Bone_47/Bone_48
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46/Bone_47/Bone_48/Bone_49
+        weight: 1
+      - path: Leaf_012
+        weight: 1
+      - path: Leaf_012/Bone_40
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41/Bone_42
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41/Bone_42/Bone_43
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41/Bone_42/Bone_43/Bone_44
+        weight: 1
+      - path: Leaf_013
+        weight: 1
+      - path: Leaf_013/Bone_35
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36/Bone_37
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36/Bone_37/Bone_38
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36/Bone_37/Bone_38/Bone_39
+        weight: 1
+      - path: Leaf_014
+        weight: 1
+      - path: Leaf_014/Bone_30
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31/Bone_32
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31/Bone_32/Bone_33
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31/Bone_32/Bone_33/Bone_34
+        weight: 1
+      - path: Leaf_015
+        weight: 1
+      - path: Leaf_015/Bone_25
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26/Bone_27
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26/Bone_27/Bone_28
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26/Bone_27/Bone_28/Bone_29
+        weight: 1
+      - path: Leaf_016
+        weight: 1
+      - path: Leaf_016/Bone_20
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21/Bone_22
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21/Bone_22/Bone_23
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21/Bone_22/Bone_23/Bone_24
+        weight: 1
+      - path: Leaf_017
+        weight: 1
+      - path: Leaf_017/Bone_15
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16/Bone_17
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16/Bone_17/Bone_18
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16/Bone_17/Bone_18/Bone_19
+        weight: 1
+      - path: Leaf_018
+        weight: 1
+      - path: Leaf_018/Bone_10
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11/Bone_12
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11/Bone_12/Bone_13
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11/Bone_12/Bone_13/Bone_14
+        weight: 1
+      - path: Leaf_019
+        weight: 1
+      - path: Leaf_019/Bone_1
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6/Bone_7
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6/Bone_7/Bone_8
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6/Bone_7/Bone_8/Bone_9
+        weight: 1
+      - path: Leaf_020
+        weight: 1
+      - path: Leaf_020/Bone_0
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2/Bone_3
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2/Bone_3/Bone_4
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2/Bone_3/Bone_4/Bone_5
+        weight: 1
+      - path: Leaf_021
+        weight: 1
+      - path: Leaf_021/Bone
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001/Bone_002
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001/Bone_002/Bone_003
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001/Bone_002/Bone_003/Bone_004
+        weight: 1
+      - path: LeafMesh
+        weight: 1
+      - path: LeafMesh_001
+        weight: 1
+      - path: LeafMesh_002
+        weight: 1
+      - path: LeafMesh_003
+        weight: 1
+      - path: LeafMesh_004
+        weight: 1
+      - path: LeafMesh_005
+        weight: 1
+      - path: LeafMesh_006
+        weight: 1
+      - path: LeafMesh_007
+        weight: 1
+      - path: LeafMesh_008
+        weight: 1
+      - path: LeafMesh_009
+        weight: 1
+      - path: LeafMesh_010
+        weight: 1
+      - path: LeafMesh_011
+        weight: 1
+      - path: LeafMesh_012
+        weight: 1
+      - path: LeafMesh_013
+        weight: 1
+      - path: LeafMesh_014
+        weight: 1
+      - path: LeafMesh_015
+        weight: 1
+      - path: LeafMesh_016
+        weight: 1
+      - path: LeafMesh_017
+        weight: 1
+      - path: LeafMesh_018
+        weight: 1
+      - path: LeafMesh_019
+        weight: 1
+      - path: LeafMesh_020
+        weight: 1
+      - path: LeafMesh_021
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Leaf_021Action
+      takeName: Leaf_021Action
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Leaf
+        weight: 1
+      - path: Leaf/Bone_100
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101/Bone_102
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101/Bone_102/Bone_103
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101/Bone_102/Bone_103/Bone_104
+        weight: 1
+      - path: Leaf_001
+        weight: 1
+      - path: Leaf_001/Bone_95
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96/Bone_97
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96/Bone_97/Bone_98
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96/Bone_97/Bone_98/Bone_99
+        weight: 1
+      - path: Leaf_002
+        weight: 1
+      - path: Leaf_002/Bone_90
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91/Bone_92
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91/Bone_92/Bone_93
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91/Bone_92/Bone_93/Bone_94
+        weight: 1
+      - path: Leaf_003
+        weight: 1
+      - path: Leaf_003/Bone_85
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86/Bone_87
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86/Bone_87/Bone_88
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86/Bone_87/Bone_88/Bone_89
+        weight: 1
+      - path: Leaf_004
+        weight: 1
+      - path: Leaf_004/Bone_80
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81/Bone_82
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81/Bone_82/Bone_83
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81/Bone_82/Bone_83/Bone_84
+        weight: 1
+      - path: Leaf_005
+        weight: 1
+      - path: Leaf_005/Bone_75
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76/Bone_77
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76/Bone_77/Bone_78
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76/Bone_77/Bone_78/Bone_79
+        weight: 1
+      - path: Leaf_006
+        weight: 1
+      - path: Leaf_006/Bone_70
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71/Bone_72
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71/Bone_72/Bone_73
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71/Bone_72/Bone_73/Bone_74
+        weight: 1
+      - path: Leaf_007
+        weight: 1
+      - path: Leaf_007/Bone_65
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66/Bone_67
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66/Bone_67/Bone_68
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66/Bone_67/Bone_68/Bone_69
+        weight: 1
+      - path: Leaf_008
+        weight: 1
+      - path: Leaf_008/Bone_60
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61/Bone_62
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61/Bone_62/Bone_63
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61/Bone_62/Bone_63/Bone_64
+        weight: 1
+      - path: Leaf_009
+        weight: 1
+      - path: Leaf_009/Bone_55
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56/Bone_57
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56/Bone_57/Bone_58
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56/Bone_57/Bone_58/Bone_59
+        weight: 1
+      - path: Leaf_010
+        weight: 1
+      - path: Leaf_010/Bone_50
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51/Bone_52
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51/Bone_52/Bone_53
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51/Bone_52/Bone_53/Bone_54
+        weight: 1
+      - path: Leaf_011
+        weight: 1
+      - path: Leaf_011/Bone_45
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46/Bone_47
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46/Bone_47/Bone_48
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46/Bone_47/Bone_48/Bone_49
+        weight: 1
+      - path: Leaf_012
+        weight: 1
+      - path: Leaf_012/Bone_40
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41/Bone_42
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41/Bone_42/Bone_43
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41/Bone_42/Bone_43/Bone_44
+        weight: 1
+      - path: Leaf_013
+        weight: 1
+      - path: Leaf_013/Bone_35
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36/Bone_37
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36/Bone_37/Bone_38
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36/Bone_37/Bone_38/Bone_39
+        weight: 1
+      - path: Leaf_014
+        weight: 1
+      - path: Leaf_014/Bone_30
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31/Bone_32
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31/Bone_32/Bone_33
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31/Bone_32/Bone_33/Bone_34
+        weight: 1
+      - path: Leaf_015
+        weight: 1
+      - path: Leaf_015/Bone_25
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26/Bone_27
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26/Bone_27/Bone_28
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26/Bone_27/Bone_28/Bone_29
+        weight: 1
+      - path: Leaf_016
+        weight: 1
+      - path: Leaf_016/Bone_20
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21/Bone_22
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21/Bone_22/Bone_23
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21/Bone_22/Bone_23/Bone_24
+        weight: 1
+      - path: Leaf_017
+        weight: 1
+      - path: Leaf_017/Bone_15
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16/Bone_17
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16/Bone_17/Bone_18
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16/Bone_17/Bone_18/Bone_19
+        weight: 1
+      - path: Leaf_018
+        weight: 1
+      - path: Leaf_018/Bone_10
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11/Bone_12
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11/Bone_12/Bone_13
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11/Bone_12/Bone_13/Bone_14
+        weight: 1
+      - path: Leaf_019
+        weight: 1
+      - path: Leaf_019/Bone_1
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6/Bone_7
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6/Bone_7/Bone_8
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6/Bone_7/Bone_8/Bone_9
+        weight: 1
+      - path: Leaf_020
+        weight: 1
+      - path: Leaf_020/Bone_0
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2/Bone_3
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2/Bone_3/Bone_4
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2/Bone_3/Bone_4/Bone_5
+        weight: 1
+      - path: Leaf_021
+        weight: 1
+      - path: Leaf_021/Bone
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001/Bone_002
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001/Bone_002/Bone_003
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001/Bone_002/Bone_003/Bone_004
+        weight: 1
+      - path: LeafMesh
+        weight: 1
+      - path: LeafMesh_001
+        weight: 1
+      - path: LeafMesh_002
+        weight: 1
+      - path: LeafMesh_003
+        weight: 1
+      - path: LeafMesh_004
+        weight: 1
+      - path: LeafMesh_005
+        weight: 1
+      - path: LeafMesh_006
+        weight: 1
+      - path: LeafMesh_007
+        weight: 1
+      - path: LeafMesh_008
+        weight: 1
+      - path: LeafMesh_009
+        weight: 1
+      - path: LeafMesh_010
+        weight: 1
+      - path: LeafMesh_011
+        weight: 1
+      - path: LeafMesh_012
+        weight: 1
+      - path: LeafMesh_013
+        weight: 1
+      - path: LeafMesh_014
+        weight: 1
+      - path: LeafMesh_015
+        weight: 1
+      - path: LeafMesh_016
+        weight: 1
+      - path: LeafMesh_017
+        weight: 1
+      - path: LeafMesh_018
+        weight: 1
+      - path: LeafMesh_019
+        weight: 1
+      - path: LeafMesh_020
+        weight: 1
+      - path: LeafMesh_021
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: IdleSway
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Leaf
+        weight: 1
+      - path: Leaf/Bone_100
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101/Bone_102
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101/Bone_102/Bone_103
+        weight: 1
+      - path: Leaf/Bone_100/Bone_101/Bone_102/Bone_103/Bone_104
+        weight: 1
+      - path: Leaf_001
+        weight: 1
+      - path: Leaf_001/Bone_95
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96/Bone_97
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96/Bone_97/Bone_98
+        weight: 1
+      - path: Leaf_001/Bone_95/Bone_96/Bone_97/Bone_98/Bone_99
+        weight: 1
+      - path: Leaf_002
+        weight: 1
+      - path: Leaf_002/Bone_90
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91/Bone_92
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91/Bone_92/Bone_93
+        weight: 1
+      - path: Leaf_002/Bone_90/Bone_91/Bone_92/Bone_93/Bone_94
+        weight: 1
+      - path: Leaf_003
+        weight: 1
+      - path: Leaf_003/Bone_85
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86/Bone_87
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86/Bone_87/Bone_88
+        weight: 1
+      - path: Leaf_003/Bone_85/Bone_86/Bone_87/Bone_88/Bone_89
+        weight: 1
+      - path: Leaf_004
+        weight: 1
+      - path: Leaf_004/Bone_80
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81/Bone_82
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81/Bone_82/Bone_83
+        weight: 1
+      - path: Leaf_004/Bone_80/Bone_81/Bone_82/Bone_83/Bone_84
+        weight: 1
+      - path: Leaf_005
+        weight: 1
+      - path: Leaf_005/Bone_75
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76/Bone_77
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76/Bone_77/Bone_78
+        weight: 1
+      - path: Leaf_005/Bone_75/Bone_76/Bone_77/Bone_78/Bone_79
+        weight: 1
+      - path: Leaf_006
+        weight: 1
+      - path: Leaf_006/Bone_70
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71/Bone_72
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71/Bone_72/Bone_73
+        weight: 1
+      - path: Leaf_006/Bone_70/Bone_71/Bone_72/Bone_73/Bone_74
+        weight: 1
+      - path: Leaf_007
+        weight: 1
+      - path: Leaf_007/Bone_65
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66/Bone_67
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66/Bone_67/Bone_68
+        weight: 1
+      - path: Leaf_007/Bone_65/Bone_66/Bone_67/Bone_68/Bone_69
+        weight: 1
+      - path: Leaf_008
+        weight: 1
+      - path: Leaf_008/Bone_60
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61/Bone_62
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61/Bone_62/Bone_63
+        weight: 1
+      - path: Leaf_008/Bone_60/Bone_61/Bone_62/Bone_63/Bone_64
+        weight: 1
+      - path: Leaf_009
+        weight: 1
+      - path: Leaf_009/Bone_55
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56/Bone_57
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56/Bone_57/Bone_58
+        weight: 1
+      - path: Leaf_009/Bone_55/Bone_56/Bone_57/Bone_58/Bone_59
+        weight: 1
+      - path: Leaf_010
+        weight: 1
+      - path: Leaf_010/Bone_50
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51/Bone_52
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51/Bone_52/Bone_53
+        weight: 1
+      - path: Leaf_010/Bone_50/Bone_51/Bone_52/Bone_53/Bone_54
+        weight: 1
+      - path: Leaf_011
+        weight: 1
+      - path: Leaf_011/Bone_45
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46/Bone_47
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46/Bone_47/Bone_48
+        weight: 1
+      - path: Leaf_011/Bone_45/Bone_46/Bone_47/Bone_48/Bone_49
+        weight: 1
+      - path: Leaf_012
+        weight: 1
+      - path: Leaf_012/Bone_40
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41/Bone_42
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41/Bone_42/Bone_43
+        weight: 1
+      - path: Leaf_012/Bone_40/Bone_41/Bone_42/Bone_43/Bone_44
+        weight: 1
+      - path: Leaf_013
+        weight: 1
+      - path: Leaf_013/Bone_35
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36/Bone_37
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36/Bone_37/Bone_38
+        weight: 1
+      - path: Leaf_013/Bone_35/Bone_36/Bone_37/Bone_38/Bone_39
+        weight: 1
+      - path: Leaf_014
+        weight: 1
+      - path: Leaf_014/Bone_30
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31/Bone_32
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31/Bone_32/Bone_33
+        weight: 1
+      - path: Leaf_014/Bone_30/Bone_31/Bone_32/Bone_33/Bone_34
+        weight: 1
+      - path: Leaf_015
+        weight: 1
+      - path: Leaf_015/Bone_25
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26/Bone_27
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26/Bone_27/Bone_28
+        weight: 1
+      - path: Leaf_015/Bone_25/Bone_26/Bone_27/Bone_28/Bone_29
+        weight: 1
+      - path: Leaf_016
+        weight: 1
+      - path: Leaf_016/Bone_20
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21/Bone_22
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21/Bone_22/Bone_23
+        weight: 1
+      - path: Leaf_016/Bone_20/Bone_21/Bone_22/Bone_23/Bone_24
+        weight: 1
+      - path: Leaf_017
+        weight: 1
+      - path: Leaf_017/Bone_15
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16/Bone_17
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16/Bone_17/Bone_18
+        weight: 1
+      - path: Leaf_017/Bone_15/Bone_16/Bone_17/Bone_18/Bone_19
+        weight: 1
+      - path: Leaf_018
+        weight: 1
+      - path: Leaf_018/Bone_10
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11/Bone_12
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11/Bone_12/Bone_13
+        weight: 1
+      - path: Leaf_018/Bone_10/Bone_11/Bone_12/Bone_13/Bone_14
+        weight: 1
+      - path: Leaf_019
+        weight: 1
+      - path: Leaf_019/Bone_1
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6/Bone_7
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6/Bone_7/Bone_8
+        weight: 1
+      - path: Leaf_019/Bone_1/Bone_6/Bone_7/Bone_8/Bone_9
+        weight: 1
+      - path: Leaf_020
+        weight: 1
+      - path: Leaf_020/Bone_0
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2/Bone_3
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2/Bone_3/Bone_4
+        weight: 1
+      - path: Leaf_020/Bone_0/Bone_2/Bone_3/Bone_4/Bone_5
+        weight: 1
+      - path: Leaf_021
+        weight: 1
+      - path: Leaf_021/Bone
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001/Bone_002
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001/Bone_002/Bone_003
+        weight: 1
+      - path: Leaf_021/Bone/Bone_001/Bone_002/Bone_003/Bone_004
+        weight: 1
+      - path: LeafMesh
+        weight: 1
+      - path: LeafMesh_001
+        weight: 1
+      - path: LeafMesh_002
+        weight: 1
+      - path: LeafMesh_003
+        weight: 1
+      - path: LeafMesh_004
+        weight: 1
+      - path: LeafMesh_005
+        weight: 1
+      - path: LeafMesh_006
+        weight: 1
+      - path: LeafMesh_007
+        weight: 1
+      - path: LeafMesh_008
+        weight: 1
+      - path: LeafMesh_009
+        weight: 1
+      - path: LeafMesh_010
+        weight: 1
+      - path: LeafMesh_011
+        weight: 1
+      - path: LeafMesh_012
+        weight: 1
+      - path: LeafMesh_013
+        weight: 1
+      - path: LeafMesh_014
+        weight: 1
+      - path: LeafMesh_015
+        weight: 1
+      - path: LeafMesh_016
+        weight: 1
+      - path: LeafMesh_017
+        weight: 1
+      - path: LeafMesh_018
+        weight: 1
+      - path: LeafMesh_019
+        weight: 1
+      - path: LeafMesh_020
+        weight: 1
+      - path: LeafMesh_021
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
