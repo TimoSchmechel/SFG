@@ -532,7 +532,7 @@ GameObject:
   - 114: {fileID: 11404602}
   m_Layer: 0
   m_Name: WSAD DEER
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1034,7 +1034,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 154858}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.36, y: -1.557, z: -0.44}
+  m_LocalPosition: {x: 0.36, y: -1.557, z: -0.24}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -2126,7 +2126,7 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 31703dceed6d7104ab5fb50e21418e56, type: 2}
+  - {fileID: 2100000, guid: 51cedb94b51ab5d4c8d9de45e7c6c6e3, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -2177,7 +2177,7 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 3505613871f27c04d83c72751e943877, type: 2}
+  - {fileID: 2100000, guid: 193a53bc4cd77404f800b12e1ac7a3c4, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -2228,7 +2228,7 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 961c3ff1b28f18e419ed1759af1dc3fb, type: 2}
+  - {fileID: 2100000, guid: c1ba223bc7ad33f46b1b81fb6ca8eee5, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -2279,7 +2279,7 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 7088182d79490174ea80e0c052532ba9, type: 2}
+  - {fileID: 2100000, guid: 71e08ef70e95c2243bd56db5572b9094, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -2330,7 +2330,7 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: a6684783615d1de44bb9e5a7f331f9cf, type: 2}
+  - {fileID: 2100000, guid: ddb0a5748a04f7249aa4f882f7a6e724, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -2432,7 +2432,7 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 33e9d781cbd804644a28424830de7e85, type: 2}
+  - {fileID: 2100000, guid: 5b2af64a716b24d44be76b29ccccf463, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
