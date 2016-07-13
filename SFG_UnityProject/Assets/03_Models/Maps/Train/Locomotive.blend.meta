@@ -1,0 +1,768 @@
+fileFormatVersion: 2
+guid: b1ce92038747fae4c9b225670767fdc1
+timeCreated: 1463720557
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Body
+    100004: Coach
+    100006: Engine
+    100008: EngineWheel1
+    100010: EngineWheel2
+    100012: EngineWheel3
+    100014: EngineWheel4
+    100016: EngineWheel5
+    100018: EngineWheel6
+    100020: Full
+    100022: Geometry
+    100024: Head
+    100026: L_Foot
+    100028: L_Forearm
+    100030: L_Hand
+    100032: L_Leg
+    100034: L_Thigh
+    100036: Landscape
+    100038: //RootNode
+    100040: LogFlatbed
+    100042: LogFlatbed_001
+    100044: LogFlatbed_002
+    100046: R_Foot
+    100048: R_Forearm
+    100050: R_Hand
+    100052: R_Leg
+    100054: R_Thigh
+    100056: Rails
+    100058: Rails_MeshPart0
+    100060: Rails_MeshPart1
+    100062: Rails_MeshPart2
+    100064: Rails_MeshPart3
+    100066: Rod1
+    100068: Rod2
+    100070: Rod3
+    100072: Rod4
+    100074: Rod5_001
+    100076: Rod6
+    100078: Rod7
+    100080: SmalllWheel4
+    100082: SmallWheel1
+    100084: SmallWheel10
+    100086: SmallWheel11
+    100088: SmallWheel12
+    100090: SmallWheel13
+    100092: SmallWheel14
+    100094: SmallWheel15
+    100096: SmallWheel16
+    100098: SmallWheel2
+    100100: SmallWheel3
+    100102: SmallWheel5
+    100104: SmallWheel6
+    100106: SmallWheel7
+    100108: SmallWheel8
+    100110: SmallWheel9
+    100112: Weapon
+    100114: Wheel1
+    100116: Wheel2
+    100118: Wheel3
+    400000: Armature
+    400002: Body
+    400004: Coach
+    400006: Engine
+    400008: EngineWheel1
+    400010: EngineWheel2
+    400012: EngineWheel3
+    400014: EngineWheel4
+    400016: EngineWheel5
+    400018: EngineWheel6
+    400020: Full
+    400022: Geometry
+    400024: Head
+    400026: L_Foot
+    400028: L_Forearm
+    400030: L_Hand
+    400032: L_Leg
+    400034: L_Thigh
+    400036: Landscape
+    400038: //RootNode
+    400040: LogFlatbed
+    400042: LogFlatbed_001
+    400044: LogFlatbed_002
+    400046: R_Foot
+    400048: R_Forearm
+    400050: R_Hand
+    400052: R_Leg
+    400054: R_Thigh
+    400056: Rails
+    400058: Rails_MeshPart0
+    400060: Rails_MeshPart1
+    400062: Rails_MeshPart2
+    400064: Rails_MeshPart3
+    400066: Rod1
+    400068: Rod2
+    400070: Rod3
+    400072: Rod4
+    400074: Rod5_001
+    400076: Rod6
+    400078: Rod7
+    400080: SmalllWheel4
+    400082: SmallWheel1
+    400084: SmallWheel10
+    400086: SmallWheel11
+    400088: SmallWheel12
+    400090: SmallWheel13
+    400092: SmallWheel14
+    400094: SmallWheel15
+    400096: SmallWheel16
+    400098: SmallWheel2
+    400100: SmallWheel3
+    400102: SmallWheel5
+    400104: SmallWheel6
+    400106: SmallWheel7
+    400108: SmallWheel8
+    400110: SmallWheel9
+    400112: Weapon
+    400114: Wheel1
+    400116: Wheel2
+    400118: Wheel3
+    2300000: Coach
+    2300002: Engine
+    2300004: EngineWheel1
+    2300006: EngineWheel2
+    2300008: EngineWheel3
+    2300010: EngineWheel4
+    2300012: EngineWheel5
+    2300014: EngineWheel6
+    2300016: Geometry
+    2300018: Landscape
+    2300020: LogFlatbed
+    2300022: LogFlatbed_001
+    2300024: LogFlatbed_002
+    2300026: Rails_MeshPart0
+    2300028: Rails_MeshPart1
+    2300030: Rails_MeshPart2
+    2300032: Rails_MeshPart3
+    2300034: Rod1
+    2300036: Rod2
+    2300038: Rod3
+    2300040: Rod4
+    2300042: Rod5_001
+    2300044: Rod6
+    2300046: Rod7
+    2300048: SmalllWheel4
+    2300050: SmallWheel1
+    2300052: SmallWheel10
+    2300054: SmallWheel11
+    2300056: SmallWheel12
+    2300058: SmallWheel13
+    2300060: SmallWheel14
+    2300062: SmallWheel15
+    2300064: SmallWheel16
+    2300066: SmallWheel2
+    2300068: SmallWheel3
+    2300070: SmallWheel5
+    2300072: SmallWheel6
+    2300074: SmallWheel7
+    2300076: SmallWheel8
+    2300078: SmallWheel9
+    2300080: Wheel1
+    2300082: Wheel2
+    2300084: Wheel3
+    3300000: Coach
+    3300002: Engine
+    3300004: EngineWheel1
+    3300006: EngineWheel2
+    3300008: EngineWheel3
+    3300010: EngineWheel4
+    3300012: EngineWheel5
+    3300014: EngineWheel6
+    3300016: Geometry
+    3300018: Landscape
+    3300020: LogFlatbed
+    3300022: LogFlatbed_001
+    3300024: LogFlatbed_002
+    3300026: Rails_MeshPart0
+    3300028: Rails_MeshPart1
+    3300030: Rails_MeshPart2
+    3300032: Rails_MeshPart3
+    3300034: Rod1
+    3300036: Rod2
+    3300038: Rod3
+    3300040: Rod4
+    3300042: Rod5_001
+    3300044: Rod6
+    3300046: Rod7
+    3300048: SmalllWheel4
+    3300050: SmallWheel1
+    3300052: SmallWheel10
+    3300054: SmallWheel11
+    3300056: SmallWheel12
+    3300058: SmallWheel13
+    3300060: SmallWheel14
+    3300062: SmallWheel15
+    3300064: SmallWheel16
+    3300066: SmallWheel2
+    3300068: SmallWheel3
+    3300070: SmallWheel5
+    3300072: SmallWheel6
+    3300074: SmallWheel7
+    3300076: SmallWheel8
+    3300078: SmallWheel9
+    3300080: Wheel1
+    3300082: Wheel2
+    3300084: Wheel3
+    4300000: Geometry
+    4300002: Landscape
+    4300004: LogFlatbed_002
+    4300006: LogFlatbed_001
+    4300008: Rod5_001
+    4300010: Rod7
+    4300012: Rod6
+    4300014: Rod4
+    4300016: Rod3
+    4300018: Rod2
+    4300020: Rod1
+    4300022: Wheel3
+    4300024: Wheel2
+    4300026: Wheel1
+    4300028: EngineWheel6
+    4300030: EngineWheel5
+    4300032: EngineWheel3
+    4300034: EngineWheel4
+    4300036: EngineWheel2
+    4300038: EngineWheel1
+    4300040: SmallWheel15
+    4300042: SmallWheel16
+    4300044: SmallWheel14
+    4300046: SmallWheel13
+    4300048: SmallWheel9
+    4300050: SmallWheel10
+    4300052: SmallWheel12
+    4300054: SmallWheel11
+    4300056: SmallWheel7
+    4300058: SmallWheel8
+    4300060: SmallWheel6
+    4300062: SmallWheel5
+    4300064: SmallWheel3
+    4300066: SmalllWheel4
+    4300068: SmallWheel2
+    4300070: SmallWheel1
+    4300072: Coach
+    4300074: LogFlatbed
+    4300076: Engine
+    4300078: Rails_MeshPart0
+    4300080: Rails_MeshPart1
+    4300082: Rails_MeshPart2
+    4300084: Rails_MeshPart3
+    7400000: Default Take
+    7400002: ArmatureAction
+    7400004: Train Move
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 139
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Full
+        weight: 1
+      - path: Armature/Full/Body
+        weight: 1
+      - path: Armature/Full/Body/Head
+        weight: 1
+      - path: Armature/Full/Body/L_Forearm
+        weight: 1
+      - path: Armature/Full/Body/L_Forearm/L_Hand
+        weight: 1
+      - path: Armature/Full/Body/L_Forearm/L_Hand/Weapon
+        weight: 1
+      - path: Armature/Full/Body/R_Forearm
+        weight: 1
+      - path: Armature/Full/Body/R_Forearm/R_Hand
+        weight: 1
+      - path: Armature/Full/L_Thigh
+        weight: 1
+      - path: Armature/Full/L_Thigh/L_Leg
+        weight: 1
+      - path: Armature/Full/L_Thigh/L_Leg/L_Foot
+        weight: 1
+      - path: Armature/Full/R_Thigh
+        weight: 1
+      - path: Armature/Full/R_Thigh/R_Leg
+        weight: 1
+      - path: Armature/Full/R_Thigh/R_Leg/R_Foot
+        weight: 1
+      - path: Coach
+        weight: 1
+      - path: Engine
+        weight: 1
+      - path: EngineWheel1
+        weight: 1
+      - path: EngineWheel2
+        weight: 1
+      - path: EngineWheel3
+        weight: 1
+      - path: EngineWheel4
+        weight: 1
+      - path: EngineWheel5
+        weight: 1
+      - path: EngineWheel6
+        weight: 1
+      - path: Geometry
+        weight: 1
+      - path: Landscape
+        weight: 1
+      - path: LogFlatbed
+        weight: 1
+      - path: LogFlatbed_001
+        weight: 1
+      - path: LogFlatbed_002
+        weight: 1
+      - path: Rails
+        weight: 1
+      - path: Rails/Rails_MeshPart0
+        weight: 1
+      - path: Rails/Rails_MeshPart1
+        weight: 1
+      - path: Rails/Rails_MeshPart2
+        weight: 1
+      - path: Rails/Rails_MeshPart3
+        weight: 1
+      - path: Rod1
+        weight: 1
+      - path: Rod2
+        weight: 1
+      - path: Rod3
+        weight: 1
+      - path: Rod4
+        weight: 1
+      - path: Rod5_001
+        weight: 1
+      - path: Rod6
+        weight: 1
+      - path: Rod7
+        weight: 1
+      - path: SmalllWheel4
+        weight: 1
+      - path: SmallWheel1
+        weight: 1
+      - path: SmallWheel2
+        weight: 1
+      - path: SmallWheel3
+        weight: 1
+      - path: SmallWheel5
+        weight: 1
+      - path: SmallWheel6
+        weight: 1
+      - path: SmallWheel7
+        weight: 1
+      - path: SmallWheel8
+        weight: 1
+      - path: SmallWheel9
+        weight: 1
+      - path: SmallWheel10
+        weight: 1
+      - path: SmallWheel11
+        weight: 1
+      - path: SmallWheel12
+        weight: 1
+      - path: SmallWheel13
+        weight: 1
+      - path: SmallWheel14
+        weight: 1
+      - path: SmallWheel15
+        weight: 1
+      - path: SmallWheel16
+        weight: 1
+      - path: Wheel1
+        weight: 1
+      - path: Wheel2
+        weight: 1
+      - path: Wheel3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ArmatureAction
+      takeName: ArmatureAction
+      firstFrame: 0
+      lastFrame: 469
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Full
+        weight: 1
+      - path: Armature/Full/Body
+        weight: 1
+      - path: Armature/Full/Body/Head
+        weight: 1
+      - path: Armature/Full/Body/L_Forearm
+        weight: 1
+      - path: Armature/Full/Body/L_Forearm/L_Hand
+        weight: 1
+      - path: Armature/Full/Body/L_Forearm/L_Hand/Weapon
+        weight: 1
+      - path: Armature/Full/Body/R_Forearm
+        weight: 1
+      - path: Armature/Full/Body/R_Forearm/R_Hand
+        weight: 1
+      - path: Armature/Full/L_Thigh
+        weight: 1
+      - path: Armature/Full/L_Thigh/L_Leg
+        weight: 1
+      - path: Armature/Full/L_Thigh/L_Leg/L_Foot
+        weight: 1
+      - path: Armature/Full/R_Thigh
+        weight: 1
+      - path: Armature/Full/R_Thigh/R_Leg
+        weight: 1
+      - path: Armature/Full/R_Thigh/R_Leg/R_Foot
+        weight: 1
+      - path: Coach
+        weight: 1
+      - path: Engine
+        weight: 1
+      - path: EngineWheel1
+        weight: 1
+      - path: EngineWheel2
+        weight: 1
+      - path: EngineWheel3
+        weight: 1
+      - path: EngineWheel4
+        weight: 1
+      - path: EngineWheel5
+        weight: 1
+      - path: EngineWheel6
+        weight: 1
+      - path: Geometry
+        weight: 1
+      - path: Landscape
+        weight: 1
+      - path: LogFlatbed
+        weight: 1
+      - path: LogFlatbed_001
+        weight: 1
+      - path: LogFlatbed_002
+        weight: 1
+      - path: Rails
+        weight: 1
+      - path: Rails/Rails_MeshPart0
+        weight: 1
+      - path: Rails/Rails_MeshPart1
+        weight: 1
+      - path: Rails/Rails_MeshPart2
+        weight: 1
+      - path: Rails/Rails_MeshPart3
+        weight: 1
+      - path: Rod1
+        weight: 1
+      - path: Rod2
+        weight: 1
+      - path: Rod3
+        weight: 1
+      - path: Rod4
+        weight: 1
+      - path: Rod5_001
+        weight: 1
+      - path: Rod6
+        weight: 1
+      - path: Rod7
+        weight: 1
+      - path: SmalllWheel4
+        weight: 1
+      - path: SmallWheel1
+        weight: 1
+      - path: SmallWheel2
+        weight: 1
+      - path: SmallWheel3
+        weight: 1
+      - path: SmallWheel5
+        weight: 1
+      - path: SmallWheel6
+        weight: 1
+      - path: SmallWheel7
+        weight: 1
+      - path: SmallWheel8
+        weight: 1
+      - path: SmallWheel9
+        weight: 1
+      - path: SmallWheel10
+        weight: 1
+      - path: SmallWheel11
+        weight: 1
+      - path: SmallWheel12
+        weight: 1
+      - path: SmallWheel13
+        weight: 1
+      - path: SmallWheel14
+        weight: 1
+      - path: SmallWheel15
+        weight: 1
+      - path: SmallWheel16
+        weight: 1
+      - path: Wheel1
+        weight: 1
+      - path: Wheel2
+        weight: 1
+      - path: Wheel3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Train Move
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 69
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Full
+        weight: 1
+      - path: Armature/Full/Body
+        weight: 1
+      - path: Armature/Full/Body/Head
+        weight: 1
+      - path: Armature/Full/Body/L_Forearm
+        weight: 1
+      - path: Armature/Full/Body/L_Forearm/L_Hand
+        weight: 1
+      - path: Armature/Full/Body/L_Forearm/L_Hand/Weapon
+        weight: 1
+      - path: Armature/Full/Body/R_Forearm
+        weight: 1
+      - path: Armature/Full/Body/R_Forearm/R_Hand
+        weight: 1
+      - path: Armature/Full/L_Thigh
+        weight: 1
+      - path: Armature/Full/L_Thigh/L_Leg
+        weight: 1
+      - path: Armature/Full/L_Thigh/L_Leg/L_Foot
+        weight: 1
+      - path: Armature/Full/R_Thigh
+        weight: 1
+      - path: Armature/Full/R_Thigh/R_Leg
+        weight: 1
+      - path: Armature/Full/R_Thigh/R_Leg/R_Foot
+        weight: 1
+      - path: Coach
+        weight: 1
+      - path: Engine
+        weight: 1
+      - path: EngineWheel1
+        weight: 1
+      - path: EngineWheel2
+        weight: 1
+      - path: EngineWheel3
+        weight: 1
+      - path: EngineWheel4
+        weight: 1
+      - path: EngineWheel5
+        weight: 1
+      - path: EngineWheel6
+        weight: 1
+      - path: Geometry
+        weight: 1
+      - path: Landscape
+        weight: 1
+      - path: LogFlatbed
+        weight: 1
+      - path: LogFlatbed_001
+        weight: 1
+      - path: LogFlatbed_002
+        weight: 1
+      - path: Rails
+        weight: 1
+      - path: Rails/Rails_MeshPart0
+        weight: 1
+      - path: Rails/Rails_MeshPart1
+        weight: 1
+      - path: Rails/Rails_MeshPart2
+        weight: 1
+      - path: Rails/Rails_MeshPart3
+        weight: 1
+      - path: Rod1
+        weight: 1
+      - path: Rod2
+        weight: 1
+      - path: Rod3
+        weight: 1
+      - path: Rod4
+        weight: 1
+      - path: Rod5_001
+        weight: 1
+      - path: Rod6
+        weight: 1
+      - path: Rod7
+        weight: 1
+      - path: SmalllWheel4
+        weight: 1
+      - path: SmallWheel1
+        weight: 1
+      - path: SmallWheel2
+        weight: 1
+      - path: SmallWheel3
+        weight: 1
+      - path: SmallWheel5
+        weight: 1
+      - path: SmallWheel6
+        weight: 1
+      - path: SmallWheel7
+        weight: 1
+      - path: SmallWheel8
+        weight: 1
+      - path: SmallWheel9
+        weight: 1
+      - path: SmallWheel10
+        weight: 1
+      - path: SmallWheel11
+        weight: 1
+      - path: SmallWheel12
+        weight: 1
+      - path: SmallWheel13
+        weight: 1
+      - path: SmallWheel14
+        weight: 1
+      - path: SmallWheel15
+        weight: 1
+      - path: SmallWheel16
+        weight: 1
+      - path: Wheel1
+        weight: 1
+      - path: Wheel2
+        weight: 1
+      - path: Wheel3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
