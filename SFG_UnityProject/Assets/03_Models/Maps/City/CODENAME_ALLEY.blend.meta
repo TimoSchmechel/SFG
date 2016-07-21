@@ -18,6 +18,71 @@ ModelImporter:
     100020: Cube_008
     100022: Cube_009
     100024: Cylinder
+    100026: buidings
+    100028: buidingsBalconies
+    100030: building1
+    100032: building1_001
+    100034: building1_002
+    100036: building1_003
+    100038: building1_004
+    100040: building1_005
+    100042: building1_006
+    100044: building1_007
+    100046: building1_008
+    100048: building2
+    100050: building2_001
+    100052: building2_002
+    100054: building2_003
+    100056: building2_004
+    100058: building2_005
+    100060: building2_006
+    100062: building2_007
+    100064: building2_008
+    100066: building3
+    100068: building3_001
+    100070: building3_002
+    100072: building3_003
+    100074: building3_004
+    100076: building3_005
+    100078: building3_006
+    100080: building3_007
+    100082: building3_008
+    100084: building4
+    100086: building4_001
+    100088: building4_002
+    100090: building4_003
+    100092: building4_004
+    100094: building4_005
+    100096: building4_006
+    100098: building4_007
+    100100: building4_008
+    100102: building5
+    100104: building5_001
+    100106: building5_002
+    100108: building5_003
+    100110: building5_004
+    100112: building5_005
+    100114: building5_006
+    100116: building5_007
+    100118: building5_008
+    100120: buildingsBalconiesRails
+    100122: buildingsPipe
+    100124: chimney
+    100126: chimney_001
+    100128: craneBase
+    100130: craneHand
+    100132: craneHea
+    100134: craneRoptThing
+    100136: craneTail
+    100138: crate
+    100140: crateRope
+    100142: hangerClothes
+    100144: hangerRopes
+    100146: hangerThings
+    100148: buildingsBack
+    100150: craneRopeThing
+    100152: crateRope2
+    100154: pagoda
     400000: Circle
     400002: //RootNode
     400004: Cube
@@ -31,6 +96,71 @@ ModelImporter:
     400020: Cube_008
     400022: Cube_009
     400024: Cylinder
+    400026: buidings
+    400028: buidingsBalconies
+    400030: building1
+    400032: building1_001
+    400034: building1_002
+    400036: building1_003
+    400038: building1_004
+    400040: building1_005
+    400042: building1_006
+    400044: building1_007
+    400046: building1_008
+    400048: building2
+    400050: building2_001
+    400052: building2_002
+    400054: building2_003
+    400056: building2_004
+    400058: building2_005
+    400060: building2_006
+    400062: building2_007
+    400064: building2_008
+    400066: building3
+    400068: building3_001
+    400070: building3_002
+    400072: building3_003
+    400074: building3_004
+    400076: building3_005
+    400078: building3_006
+    400080: building3_007
+    400082: building3_008
+    400084: building4
+    400086: building4_001
+    400088: building4_002
+    400090: building4_003
+    400092: building4_004
+    400094: building4_005
+    400096: building4_006
+    400098: building4_007
+    400100: building4_008
+    400102: building5
+    400104: building5_001
+    400106: building5_002
+    400108: building5_003
+    400110: building5_004
+    400112: building5_005
+    400114: building5_006
+    400116: building5_007
+    400118: building5_008
+    400120: buildingsBalconiesRails
+    400122: buildingsPipe
+    400124: chimney
+    400126: chimney_001
+    400128: craneBase
+    400130: craneHand
+    400132: craneHea
+    400134: craneRoptThing
+    400136: craneTail
+    400138: crate
+    400140: crateRope
+    400142: hangerClothes
+    400144: hangerRopes
+    400146: hangerThings
+    400148: buildingsBack
+    400150: craneRopeThing
+    400152: crateRope2
+    400154: pagoda
     2300000: Circle
     2300002: Cube
     2300004: Cube_001
@@ -43,6 +173,71 @@ ModelImporter:
     2300018: Cube_008
     2300020: Cube_009
     2300022: Cylinder
+    2300024: buidings
+    2300026: buidingsBalconies
+    2300028: building1
+    2300030: building1_001
+    2300032: building1_002
+    2300034: building1_003
+    2300036: building1_004
+    2300038: building1_005
+    2300040: building1_006
+    2300042: building1_007
+    2300044: building1_008
+    2300046: building2
+    2300048: building2_001
+    2300050: building2_002
+    2300052: building2_003
+    2300054: building2_004
+    2300056: building2_005
+    2300058: building2_006
+    2300060: building2_007
+    2300062: building2_008
+    2300064: building3
+    2300066: building3_001
+    2300068: building3_002
+    2300070: building3_003
+    2300072: building3_004
+    2300074: building3_005
+    2300076: building3_006
+    2300078: building3_007
+    2300080: building3_008
+    2300082: building4
+    2300084: building4_001
+    2300086: building4_002
+    2300088: building4_003
+    2300090: building4_004
+    2300092: building4_005
+    2300094: building4_006
+    2300096: building4_007
+    2300098: building4_008
+    2300100: building5
+    2300102: building5_001
+    2300104: building5_002
+    2300106: building5_003
+    2300108: building5_004
+    2300110: building5_005
+    2300112: building5_006
+    2300114: building5_007
+    2300116: building5_008
+    2300118: buildingsBalconiesRails
+    2300120: buildingsPipe
+    2300122: chimney
+    2300124: chimney_001
+    2300126: craneBase
+    2300128: craneHand
+    2300130: craneHea
+    2300132: craneRoptThing
+    2300134: craneTail
+    2300136: crate
+    2300138: crateRope
+    2300140: hangerClothes
+    2300142: hangerRopes
+    2300144: hangerThings
+    2300146: buildingsBack
+    2300148: craneRopeThing
+    2300150: crateRope2
+    2300152: pagoda
     3300000: Circle
     3300002: Cube
     3300004: Cube_001
@@ -55,6 +250,71 @@ ModelImporter:
     3300018: Cube_008
     3300020: Cube_009
     3300022: Cylinder
+    3300024: buidings
+    3300026: buidingsBalconies
+    3300028: building1
+    3300030: building1_001
+    3300032: building1_002
+    3300034: building1_003
+    3300036: building1_004
+    3300038: building1_005
+    3300040: building1_006
+    3300042: building1_007
+    3300044: building1_008
+    3300046: building2
+    3300048: building2_001
+    3300050: building2_002
+    3300052: building2_003
+    3300054: building2_004
+    3300056: building2_005
+    3300058: building2_006
+    3300060: building2_007
+    3300062: building2_008
+    3300064: building3
+    3300066: building3_001
+    3300068: building3_002
+    3300070: building3_003
+    3300072: building3_004
+    3300074: building3_005
+    3300076: building3_006
+    3300078: building3_007
+    3300080: building3_008
+    3300082: building4
+    3300084: building4_001
+    3300086: building4_002
+    3300088: building4_003
+    3300090: building4_004
+    3300092: building4_005
+    3300094: building4_006
+    3300096: building4_007
+    3300098: building4_008
+    3300100: building5
+    3300102: building5_001
+    3300104: building5_002
+    3300106: building5_003
+    3300108: building5_004
+    3300110: building5_005
+    3300112: building5_006
+    3300114: building5_007
+    3300116: building5_008
+    3300118: buildingsBalconiesRails
+    3300120: buildingsPipe
+    3300122: chimney
+    3300124: chimney_001
+    3300126: craneBase
+    3300128: craneHand
+    3300130: craneHea
+    3300132: craneRoptThing
+    3300134: craneTail
+    3300136: crate
+    3300138: crateRope
+    3300140: hangerClothes
+    3300142: hangerRopes
+    3300144: hangerThings
+    3300146: buildingsBack
+    3300148: craneRopeThing
+    3300150: crateRope2
+    3300152: pagoda
     4300000: Cube_009
     4300002: Cube_008
     4300004: Cube_007
@@ -67,21 +327,75 @@ ModelImporter:
     4300018: Cube_001
     4300020: Cylinder
     4300022: Cube
-    6400000: Circle
-    6400002: Cube
-    6400004: Cube_001
-    6400006: Cube_002
-    6400008: Cube_003
-    6400010: Cube_004
-    6400012: Cube_005
-    6400014: Cube_006
-    6400016: Cube_007
-    6400018: Cube_008
-    6400020: Cube_009
+    4300024: building1_008
+    4300026: building2_008
+    4300028: building3_008
+    4300030: building4_008
+    4300032: building5_008
+    4300034: building1_007
+    4300036: building2_007
+    4300038: building3_007
+    4300040: building4_007
+    4300042: building5_007
+    4300044: building1_006
+    4300046: building2_006
+    4300048: building3_006
+    4300050: building4_006
+    4300052: building5_006
+    4300054: building1_005
+    4300056: building2_005
+    4300058: building3_005
+    4300060: building4_005
+    4300062: building5_005
+    4300064: building1_004
+    4300066: building2_004
+    4300068: building3_004
+    4300070: building4_004
+    4300072: building5_004
+    4300074: building1_003
+    4300076: building2_003
+    4300078: building3_003
+    4300080: building4_003
+    4300082: building5_003
+    4300084: building1_002
+    4300086: building2_002
+    4300088: building3_002
+    4300090: building4_002
+    4300092: building5_002
+    4300094: building1_001
+    4300096: building2_001
+    4300098: building3_001
+    4300100: building4_001
+    4300102: building5_001
+    4300104: building5
+    4300106: building4
+    4300108: building3
+    4300110: chimney
+    4300112: building2
+    4300114: building1
+    4300116: chimney_001
+    4300118: hangerThings
+    4300120: buidingsBalconies
+    4300122: hangerClothes
+    4300124: hangerRopes
+    4300126: buildingsPipe
+    4300128: buildingsBalconiesRails
+    4300130: craneRoptThing
+    4300132: crateRope
+    4300134: craneTail
+    4300136: craneHea
+    4300138: craneHand
+    4300140: craneBase
+    4300142: crate
+    4300144: buidings
+    4300146: crateRope2
+    4300148: pagoda
+    4300150: craneRopeThing
+    4300152: buildingsBack
     7400000: Default Take
     9500000: //RootNode
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
   animations:
@@ -106,7 +420,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
