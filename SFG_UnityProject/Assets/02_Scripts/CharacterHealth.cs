@@ -29,6 +29,9 @@ public class CharacterHealth : MonoBehaviour
     public GameObject [] deathSpawn;
     public HealthBar myHealhBar;
 
+    private HeightKiller heightKiller;
+    public float yCharHeightLimit = -10;
+
 	// Use this for initialization
 	void Start ()
     {
@@ -47,6 +50,8 @@ public class CharacterHealth : MonoBehaviour
                 Invoke("setToVulnerable", deadTime + invulnerableTime);
             }
         }
+        heightKiller = gameObject.AddComponent<HeightKiller>();
+        heightKiller.yLimit = yCharHeightLimit;
     }
 
     //Shows the character on the screen
