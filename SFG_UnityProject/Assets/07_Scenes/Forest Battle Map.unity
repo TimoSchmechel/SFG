@@ -3902,6 +3902,18 @@ Prefab:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 11491526, guid: f4ff6f8b957e3bb4c8bfb6c658eb4cd1, type: 2}
+      propertyPath: deadTime
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11491526, guid: f4ff6f8b957e3bb4c8bfb6c658eb4cd1, type: 2}
+      propertyPath: invulnerableTime
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11435886, guid: f4ff6f8b957e3bb4c8bfb6c658eb4cd1, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f4ff6f8b957e3bb4c8bfb6c658eb4cd1, type: 2}
   m_IsPrefabParent: 0

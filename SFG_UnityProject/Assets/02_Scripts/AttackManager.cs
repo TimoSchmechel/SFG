@@ -22,17 +22,22 @@ public class AttackManager : MonoBehaviour
     public KeyCode [] attackKeys;
     public string [] animationStrings;
     public Animator animator;
+    private CharacterHealth charHealth;
 
-	// Use this for initialization
-	void Start ()
+    // Use this for initialization
+    void Start ()
     {
-	
-	}
+        charHealth = GetComponent<CharacterHealth>();
+    }
 	
 	// Update is called once per frame
 	void Update ()
     {
-        CheckKeys();
+        //If the player is not invulnerable they can attack
+        if (!charHealth.invunerable)
+        {
+            CheckKeys();
+        }
     }
 
     void CheckKeys()

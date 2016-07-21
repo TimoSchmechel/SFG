@@ -80,13 +80,5 @@ public class cameraControls : MonoBehaviour
             newPos = players[0].transform.position + new Vector3(0, 0, -8) + new Vector3(0, 2, 0);
         }
         transform.position = Vector3.Lerp(transform.position, newPos, Time.deltaTime);
-
-
-
-
-
-
-
-
     }
 }

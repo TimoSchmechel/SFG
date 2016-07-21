@@ -18,24 +18,12 @@ public class Damager : MonoBehaviour
 {
     public int damage = 1;
 
-
-    // Use this for initialization
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     void OnTriggerEnter(Collider col)
     {
         CharacterHealth h = col.GetComponent<CharacterHealth>();
-
-        if(h != null)
+        //If the character attacked is both vulnerable and has a CharacterHealthScript
+        //They will take 1 damage
+        if (h != null && !h.invunerable)
         {
             h.UpdateHealth(-damage);
         }
