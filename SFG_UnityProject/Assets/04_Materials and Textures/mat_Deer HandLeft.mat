@@ -102,7 +102,7 @@ Material:
       data:
         first:
           name: _Glossiness
-        second: 0.5
+        second: 0.516
       data:
         first:
           name: _BumpScale
@@ -135,4 +135,4 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: 0.28627452, g: 0.72156864, b: 0.2509804, a: 1}
+        second: {r: 0.44908094, g: 1, b: 0.4044118, a: 1}
