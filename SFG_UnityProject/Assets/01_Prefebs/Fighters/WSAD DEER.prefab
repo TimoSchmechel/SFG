@@ -1488,7 +1488,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 122162}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
@@ -1665,8 +1665,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 4
   health: 4
+  invunerable: 0
+  justRespawned: 0
+  deadTime: 0
+  invulnerableTime: 0
   deathSpawn: []
   myHealhBar: {fileID: 0}
+  yCharHeightLimit: -10
 --- !u!114 &11472586
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2381,7 +2386,7 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 49c91d54b5382b142b97f9864d631c82, type: 2}
+  - {fileID: 2100000, guid: 9e30860d805ac3847bf4afd33a186009, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
