@@ -258,9 +258,8 @@ GameObject:
   - 114: {fileID: 11430912}
   - 114: {fileID: 11430230}
   - 114: {fileID: 11400974}
-  - 114: {fileID: 11468384}
   m_Layer: 0
-  m_Name: Fire Monster 1
+  m_Name: Fire_Monster_1_charselect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2401,27 +2400,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   yRotMode: 1
---- !u!114 &11468384
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 126000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9df265fbeeca2f49b2005a1c8159f54, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  leftKey: 97
-  rightKey: 100
-  upKey: 119
-  downKey: 115
-  jumpKey: 119
-  myMotor: {fileID: 0}
-  axisRestrictions:
-    x: 0
-    y: 0
-    z: 1
 --- !u!114 &11473404
 MonoBehaviour:
   m_ObjectHideFlags: 1

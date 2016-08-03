@@ -529,9 +529,8 @@ GameObject:
   - 114: {fileID: 11472586}
   - 114: {fileID: 11472536}
   - 114: {fileID: 11445442}
-  - 114: {fileID: 11404602}
   m_Layer: 0
-  m_Name: WSAD DEER 1
+  m_Name: WSAD_Deer1_charselect
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1591,27 +1590,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &11404602
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 154858}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9df265fbeeca2f49b2005a1c8159f54, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  leftKey: 97
-  rightKey: 100
-  upKey: 119
-  downKey: 115
-  jumpKey: 119
-  myMotor: {fileID: 0}
-  axisRestrictions:
-    x: 0
-    y: 0
-    z: 1
 --- !u!114 &11432570
 MonoBehaviour:
   m_ObjectHideFlags: 1

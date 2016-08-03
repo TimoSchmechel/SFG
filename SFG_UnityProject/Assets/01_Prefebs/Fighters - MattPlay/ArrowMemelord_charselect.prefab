@@ -124,9 +124,8 @@ GameObject:
   - 114: {fileID: 11445490}
   - 114: {fileID: 11498372}
   - 114: {fileID: 11460460}
-  - 114: {fileID: 11466752}
   m_Layer: 0
-  m_Name: ARROW MEME WIZARD 1
+  m_Name: ArrowMemelord_charselect
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -971,27 +970,6 @@ MonoBehaviour:
   sanityCoEfficient: 200
   grounded: 0
   anim: {fileID: 9586254}
---- !u!114 &11466752
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 134356}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9df265fbeeca2f49b2005a1c8159f54, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  leftKey: 276
-  rightKey: 275
-  upKey: 273
-  downKey: 274
-  jumpKey: 273
-  myMotor: {fileID: 0}
-  axisRestrictions:
-    x: 0
-    y: 0
-    z: 1
 --- !u!114 &11474208
 MonoBehaviour:
   m_ObjectHideFlags: 1

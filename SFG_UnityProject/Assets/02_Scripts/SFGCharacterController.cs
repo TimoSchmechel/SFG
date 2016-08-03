@@ -25,6 +25,8 @@ public class SFGCharacterController : MonoBehaviour
     public KeyCode downKey = KeyCode.DownArrow;
     public KeyCode jumpKey = KeyCode.RightShift;
 
+    public bool autoAssign = false;
+
     public SFGCharacterMotor myMotor;
     [System.Serializable]
     public class AxisRestrictor
@@ -45,21 +47,29 @@ public class SFGCharacterController : MonoBehaviour
     // Use this for initialization
     void Start ()
     {
+        if(autoAssign)
+        {
+            Init();
+        }
+    }
+
+    public void Init()
+    {
         if (myMotor == null)
             myMotor = gameObject.GetComponent<SFGCharacterMotor>();
 
         originalPos = transform.position;
 
         //apply the fighter's constraint settings to the rigidbody;
-       if(rBody == null)
+        if (rBody == null)
             rBody = myMotor.GetComponent<Rigidbody>();
 
         rBody.constraints = RigidbodyConstraints.None;
 
-        if(axisRestrictions.x)
+        if (axisRestrictions.x)
             rBody.constraints = rBody.constraints | RigidbodyConstraints.FreezePositionX;
 
-        if(axisRestrictions.y)
+        if (axisRestrictions.y)
             rBody.constraints = rBody.constraints | RigidbodyConstraints.FreezePositionY;
 
         if (axisRestrictions.z)
@@ -67,7 +77,6 @@ public class SFGCharacterController : MonoBehaviour
 
         //assume rotation restriction
         rBody.constraints = rBody.constraints | RigidbodyConstraints.FreezeRotation;
-
     }
 	
 	// Update is called once per frame

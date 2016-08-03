@@ -24,15 +24,18 @@ public class SFGSpriteFlipper : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
-	    if(Input.GetKeyDown(myController.leftKey))
-        {
-            transform.localScale = flipScale;
-        }
+        if(myController != null)
+        { 
+	        if(Input.GetKeyDown(myController.leftKey))
+            {
+                transform.localScale = flipScale;
+            }
 
-        //assume original right facing...
-        if (Input.GetKeyDown(myController.rightKey))
-        {
-            transform.localScale = originalScale;
+            //assume original right facing...
+            if (Input.GetKeyDown(myController.rightKey))
+            {
+                transform.localScale = originalScale;
+            }
         }
     }
 }
