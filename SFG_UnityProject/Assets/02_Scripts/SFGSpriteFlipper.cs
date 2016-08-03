@@ -7,7 +7,7 @@ public class SFGSpriteFlipper : MonoBehaviour
 
     private Vector3 originalScale;
     private Vector3 flipScale;
-
+    public bool facingRight = true;
     // Use this for initialization
     void Start ()
     {
@@ -24,18 +24,17 @@ public class SFGSpriteFlipper : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
-        if(myController != null)
-        { 
-	        if(Input.GetKeyDown(myController.leftKey))
-            {
-                transform.localScale = flipScale;
-            }
+	    if(Input.GetKeyDown(myController.leftKey))
+        {
+            transform.localScale = flipScale;
+            facingRight = false;
+        }
 
-            //assume original right facing...
-            if (Input.GetKeyDown(myController.rightKey))
-            {
-                transform.localScale = originalScale;
-            }
+        //assume original right facing...
+        if (Input.GetKeyDown(myController.rightKey))
+        {
+            transform.localScale = originalScale;
+            facingRight = true;
         }
     }
 }
