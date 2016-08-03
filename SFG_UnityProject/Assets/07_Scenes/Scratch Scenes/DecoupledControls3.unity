@@ -461,7 +461,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 454390, guid: d4c6bf3a72cc6d64880ebb40673e0b91, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -1.01
+      value: -0.89
       objectReference: {fileID: 0}
     - target: {fileID: 454390, guid: d4c6bf3a72cc6d64880ebb40673e0b91, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1289,3 +1289,46 @@ Transform:
   - {fileID: 1394992061}
   m_Father: {fileID: 0}
   m_RootOrder: 7
+--- !u!1 &2031281222
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2031281224}
+  - 114: {fileID: 2031281223}
+  m_Layer: 0
+  m_Name: CharacterSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2031281223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2031281222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0094976cee09a40bbe5d45e4756f98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnSettings:
+    characterSelections: 00000000010000000200000001000000
+  CharacterList: []
+--- !u!4 &2031281224
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2031281222}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.98252565, y: 4.8634214, z: 0.57720375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
