@@ -3,15 +3,19 @@ using System.Collections;
 
 public class SwordPickUP : MonoBehaviour {
     private SwordThrow st;
-    public GameObject sword;
+    private SwordID sID;
+
+   // public GameObject swordPrefab;
+    public GameObject thorw;
     void Awake()
     {
-        st = sword.GetComponent<SwordThrow>();
+        st = thorw.GetComponent<SwordThrow>();
+        //sID = swordPrefab.GetComponent<SwordID>();
     }
 
     // Update is called once per frame
     void OnTriggerEnter (Collider col) {
-        if (col.tag == "Player1Sword")
+        if (col.GetComponent<SwordID>().swordid == 1)
         {
             Destroy(col.gameObject);
             st.hasSword = true;
