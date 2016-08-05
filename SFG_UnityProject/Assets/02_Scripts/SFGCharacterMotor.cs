@@ -12,14 +12,15 @@ Allan Dominguez
 This Script:
 Matt Cabanag
 Michael Baker
+Hayden Munday
 
 */
 
 using UnityEngine;
 using System.Collections;
 
-public class SFGCharacterMotor : MonoBehaviour {
-
+public class SFGCharacterMotor : MonoBehaviour
+{
     public float maxSpeed = 2;
     public float speed = 2;
     public float jumpPower = 50f;
@@ -49,7 +50,6 @@ public class SFGCharacterMotor : MonoBehaviour {
 
         HorizontalMove();
         Jumping();
-
     }
 
     void Jumping()
@@ -62,11 +62,17 @@ public class SFGCharacterMotor : MonoBehaviour {
                 rBody.AddForce(Vector3.up * jumpPower * sanityCoEfficient);
             }
         }
+
+        if (!grounded)
+            anim.SetBool("InAir", true);
+        else
+            anim.SetBool("InAir", false);
     }
 
     void Knockback()
     {
-        anim.SetTrigger("TakeHit");
+        if (GetComponent<CharacterHealth>().health > 1)//only knockback if it's not going to cause death otherwise death anim can take it's place
+            anim.SetTrigger("TakeHit");
     }
 
     void HorizontalMove()
@@ -81,9 +87,21 @@ public class SFGCharacterMotor : MonoBehaviour {
         mVector.x = hVector.x;
         mVector.z = hVector.y;
 
-        //make the rigidbody move, but constrain it with maxspeed
-        //if (rBody.velocity.magnitude < maxSpeed)
-        rBody.AddForce(mVector * speed * sanityCoEfficient);
+        //new
+        Vector3 output = mVector * speed * sanityCoEfficient;
+        rBody.AddForce(output);
+        if (!(rBody.velocity.magnitude < maxSpeed && rBody.velocity.magnitude > -maxSpeed))
+        {
+            Vector3 vel = rBody.velocity, result = new Vector3(0, 0, 0);
+            result = vel * -1;
+            result.Normalize();
+            //result = result * (vel.magnitude - maxSpeed);
+            rBody.AddForce(result * speed * sanityCoEfficient);
+        }
+        if (rBody.velocity.y < 0 && !grounded)
+        {
+            rBody.AddForce(new Vector3(0, -speed * sanityCoEfficient, 0));
+        }
 
     }
 }

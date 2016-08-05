@@ -19,7 +19,7 @@ public class CharacterSelectionSettings : MonoBehaviour
             Instance = this;
         else
             Destroy(Instance.gameObject);
-	}
+    }
 
     [ContextMenu("LoadLevel")]
     public void LoadLevel()

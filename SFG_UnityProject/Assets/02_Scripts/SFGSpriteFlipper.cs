@@ -19,6 +19,7 @@ public class SFGSpriteFlipper : MonoBehaviour
         {
             myController = transform.root.GetComponent<SFGCharacterController>();
         }
+
     }
 	
 	// Update is called once per frame

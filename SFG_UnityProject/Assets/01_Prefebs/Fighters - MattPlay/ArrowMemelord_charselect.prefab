@@ -513,7 +513,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 196708}
-  m_LocalRotation: {x: 0.3016815, y: 0.6678673, z: -0.61990595, w: 0.2804609}
+  m_LocalRotation: {x: 0.30168146, y: 0.66786724, z: -0.6199059, w: 0.28046086}
   m_LocalPosition: {x: -0.15575705, y: 0.000000009313226, z: -0.000000037020072}
   m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.9999998}
   m_LocalEulerAnglesHint: {x: 85.7495, y: 179.5416, z: 48.1926}
@@ -934,6 +934,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myController: {fileID: 0}
+  facingRight: 1
 --- !u!114 &11445490
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -962,14 +963,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a4978c14da30864c840c26f1f77f2f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 2
-  speed: 2
-  jumpPower: 50
+  maxSpeed: 6
+  speed: 4
+  jumpPower: 85
   hVector: {x: 0, y: 0}
   jumpSwitch: 0
   sanityCoEfficient: 200
   grounded: 0
-  anim: {fileID: 9586254}
+  anim: {fileID: 9558728, guid: 071b44b2b8ae8374881244a3b69e7dbc, type: 2}
 --- !u!114 &11474208
 MonoBehaviour:
   m_ObjectHideFlags: 1

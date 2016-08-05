@@ -84,7 +84,7 @@ MonoBehaviour:
   rightKey: 100
   upKey: 119
   downKey: 115
-  jumpKey: 118
+  jumpKey: 119
   autoAssign: 0
   myMotor: {fileID: 0}
   axisRestrictions:
