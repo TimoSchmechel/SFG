@@ -3,22 +3,29 @@ using System.Collections;
 
 public class ChooseCharacter : MonoBehaviour {
 
-    public int charIndex = 0;
+    public int charIndex = -1;
+    public int playerNumber;
     //Needs to be non-empty
     public string SetMode = "Empty";
-    private int numOfC = 2;//Should access a static script that contails all of the character details
-
-    private DisplayCharacterSelected dChar;
+    private int numOfC = 5;
 
     void Start()
     {
-        dChar = gameObject.GetComponent<DisplayCharacterSelected>();
-        dChar.CreateCharacter(charIndex);
     }
     void Update()
     {
-        //Controller can be selected from SetMode string
-        SelectController(SetMode);
+        MoveCamera();
+
+        if (Input.anyKeyDown)
+        {
+            //Controller can be selected from SetMode string
+            SelectController(SetMode);
+
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                CharacterSelectionSettings.Instance.characterSelections[playerNumber] = charIndex;
+            }
+        }
     }   
         //Controls the navigation of the character
         private void Left()
@@ -59,7 +66,6 @@ public class ChooseCharacter : MonoBehaviour {
             {
                 Right();
             }
-            dChar.CreateCharacter(charIndex);
         }
         }
     //Controls the character selection with WASD keys
@@ -75,7 +81,11 @@ public class ChooseCharacter : MonoBehaviour {
             {
                 Right();
             }
-            dChar.CreateCharacter(charIndex);
         }
+    }
+
+    private void MoveCamera()
+    {
+        transform.localPosition = new Vector3(charIndex*2, 0, 0);
     }
 }
