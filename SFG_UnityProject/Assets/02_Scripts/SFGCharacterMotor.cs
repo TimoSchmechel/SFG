@@ -21,9 +21,9 @@ using System.Collections;
 
 public class SFGCharacterMotor : MonoBehaviour
 {
-    public float maxSpeed = 2;
-    public float speed = 2;
-    public float jumpPower = 50f;
+    public float maxSpeed = 6;
+    public float speed = 4;
+    public float jumpPower = 90f;//guessed
     public Vector2 hVector;
     public bool jumpSwitch;
     public float sanityCoEfficient = 200;
@@ -87,18 +87,21 @@ public class SFGCharacterMotor : MonoBehaviour
         mVector.x = hVector.x;
         mVector.z = hVector.y;
 
-        //new
+        float max;
+        if (!grounded)//allow more possible magnitude during air movement
+            max = maxSpeed + 2;
+        else max = maxSpeed;
+
         Vector3 output = mVector * speed * sanityCoEfficient;
         rBody.AddForce(output);
-        if (!(rBody.velocity.magnitude < maxSpeed && rBody.velocity.magnitude > -maxSpeed))
+        if (!(rBody.velocity.magnitude < max && rBody.velocity.magnitude > -max))
         {
             Vector3 vel = rBody.velocity, result = new Vector3(0, 0, 0);
             result = vel * -1;
             result.Normalize();
             //result = result * (vel.magnitude - maxSpeed);
             rBody.AddForce(result * speed * sanityCoEfficient);
-        }
-        if (rBody.velocity.y < 0 && !grounded)
+        } else if (rBody.velocity.y < 0 && !grounded)
         {
             rBody.AddForce(new Vector3(0, -speed * sanityCoEfficient, 0));
         }

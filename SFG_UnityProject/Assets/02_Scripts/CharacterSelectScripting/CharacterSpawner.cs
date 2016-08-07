@@ -33,6 +33,8 @@ public class CharacterSpawner : MonoBehaviour
 	// Use this for initialization
 	void Start ()
     {
+        if (characterControls.Length <= 0)
+            characterControls = GetComponentsInChildren<SFGCharacterController>();
 	    if(CharacterSelectionSettings.Instance != null)
         {
             //match selections
@@ -45,8 +47,8 @@ public class CharacterSpawner : MonoBehaviour
             //spawn the characters! 
             SpawnCharacters();
 
-        }
-	}
+        }else SpawnCharacters();//currently for testing purposes - Hayden
+    }
 	
 	// Update is called once per frame
 	void Update ()
@@ -62,21 +64,31 @@ public class CharacterSpawner : MonoBehaviour
             int charIndex = characterSelections[i];
 
             if(charIndex >= 0)
-                SpawnCharacter(characterList[charIndex], spawnPoints[i], characterControls[i]);
+                SpawnCharacter(characterList[charIndex], spawnPoints[i], characterControls[i],i);
         }
     }
 
-    public void SpawnCharacter(GameObject prefab, Transform spawnPoint, SFGCharacterController controller)
+    public void SpawnCharacter(GameObject prefab, Transform spawnPoint, SFGCharacterController controller, int playerID)
     {
+        //using int i as player id to refer back when respawning.
+        //may want to set justSpawned and vunerable on characterHealth?
         GameObject newPlayerChar = Instantiate(prefab, spawnPoint.position, spawnPoint.rotation) as GameObject;
 
         SFGCharacterMotor motor = newPlayerChar.GetComponent<SFGCharacterMotor>();
         SFGSpriteFlipper spriteFlipper = newPlayerChar.GetComponentInChildren<SFGSpriteFlipper>();
+        CharacterHealth charHp = newPlayerChar.GetComponent<CharacterHealth>();
+
+        if (charHp != null)//set playerID
+            charHp.setPlayerID(playerID);
 
         if (motor != null)
             controller.myMotor = motor;
 
         if (spriteFlipper != null)
             spriteFlipper.myController = controller;
+    }
+
+    public void respawn(int ID) {
+        SpawnCharacter(characterList[characterSelections[ID]], spawnPoints[ID], characterControls[ID], ID);
     }
 }
