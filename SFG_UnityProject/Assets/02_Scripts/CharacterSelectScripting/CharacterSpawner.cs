@@ -28,6 +28,9 @@ public class CharacterSpawner : MonoBehaviour
     //index 0 represents player 1 and so on..
     public SFGCharacterController [] characterControls;
 
+    //life count for each player.. index rules apply ie 0 is p1, etc.
+    public int [] characterLives = new int[4];
+
     public Transform[] spawnPoints;
 
 	// Use this for initialization
@@ -88,7 +91,17 @@ public class CharacterSpawner : MonoBehaviour
             spriteFlipper.myController = controller;
     }
 
-    public void respawn(int ID) {
-        SpawnCharacter(characterList[characterSelections[ID]], spawnPoints[ID], characterControls[ID], ID);
+    public void respawn(int ID)
+    {
+        if (characterLives[ID] > 0)
+        {
+            
+            if(characterLives[ID] > 1)
+                SpawnCharacter(characterList[characterSelections[ID]], spawnPoints[ID], characterControls[ID], ID);
+
+            characterLives[ID]--;
+        }
+        else
+            Debug.Log("No more lives. Sorreh. Lel");
     }
 }

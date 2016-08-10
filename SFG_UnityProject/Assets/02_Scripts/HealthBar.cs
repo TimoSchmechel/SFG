@@ -36,15 +36,8 @@ public class HealthBar : MonoBehaviour {
     }
 	
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
 
-        /*testing
-	    if(Input.GetKeyDown("0")){updateHealth(0);}
-        if (Input.GetKeyDown("1")) { updateHealth(1); }
-        if (Input.GetKeyDown("2")) { updateHealth(2); }
-        if (Input.GetKeyDown("3")) { updateHealth(3); }
-        if (Input.GetKeyDown("4")) { updateHealth(4); }
-        if (Input.GetKeyDown("5")) { updateHealth(5); }
-        */
     }
 }

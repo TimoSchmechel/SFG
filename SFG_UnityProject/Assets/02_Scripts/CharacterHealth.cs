@@ -93,7 +93,7 @@ public class CharacterHealth : MonoBehaviour {
             health = maxHealth;
 
         if (health <= 0) {
-            health = maxHealth;//here to stop relooping during wait
+            //health = maxHealth;//here to stop relooping during wait
             StartCoroutine(runDeathAnimation());
         }
 
