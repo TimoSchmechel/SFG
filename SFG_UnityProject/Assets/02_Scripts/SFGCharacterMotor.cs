@@ -92,6 +92,7 @@ public class SFGCharacterMotor : MonoBehaviour
             max = maxSpeed + 2;
         else max = maxSpeed;
 
+        //don't go past a certain speed..
         Vector3 output = mVector * speed * sanityCoEfficient;
         rBody.AddForce(output);
         if (!(rBody.velocity.magnitude < max && rBody.velocity.magnitude > -max))

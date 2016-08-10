@@ -13,6 +13,8 @@ Matt Cabanag
 using UnityEngine;
 using System.Collections;
 
+
+[RequireComponent(typeof(HeightKiller))]
 public class CharacterHealth : MonoBehaviour {
     public int maxHealth;
     public int health;
@@ -25,18 +27,39 @@ public class CharacterHealth : MonoBehaviour {
     public float invulnerableTime;
 
     public GameObject[] deathSpawn;
-    public HealthBar myHealhBar;
+    public HealthBar myHealthBar;
     public Transform spawnPoint;
 
     private HeightKiller heightKiller;
     public float yCharHeightLimit = -10;
 
-    private int playerID = 1;//player 1 by default
+    private int playerID = 0;//player 1 by default
 
     // Use this for initialization
-    void Start() {
-        if (myHealhBar != null)
-            myHealhBar.SetHealth(health);
+    void Start()
+    {
+        if(myHealthBar == null)
+        {
+            //find all the health bars in the scene
+            HealthBar[] allHealthBars = FindObjectsOfType<HealthBar>();
+
+            //and then look for my own one..
+            foreach(HealthBar h in allHealthBars)
+            {
+                
+                if(h.playerID == playerID)
+                {
+                    Debug.Log(name + "; player's id:" + playerID + " ; health bar's id:" + playerID);
+                    myHealthBar = h;
+                    break;
+                }
+            }
+        }
+
+        if(myHealthBar != null)
+        {
+            myHealthBar.SetHealth(health);
+        }
 
 
         //If the character just respawned
@@ -49,7 +72,8 @@ public class CharacterHealth : MonoBehaviour {
                 Invoke("setToVulnerable", deadTime + invulnerableTime);
             }
         }
-        heightKiller = gameObject.AddComponent<HeightKiller>();
+
+        heightKiller = GetComponent<HeightKiller>();
         heightKiller.yLimit = yCharHeightLimit;
     }
 
@@ -72,6 +96,9 @@ public class CharacterHealth : MonoBehaviour {
             health = maxHealth;//here to stop relooping during wait
             StartCoroutine(runDeathAnimation());
         }
+
+        if (myHealthBar != null)
+            myHealthBar.SetHealth(health);
     }
 
     IEnumerator runDeathAnimation() {//needs to be ran like this in order to wait
@@ -88,7 +115,9 @@ public class CharacterHealth : MonoBehaviour {
         foreach (GameObject o in deathSpawn) {//prev respawning code
             Instantiate(o, transform.position, transform.rotation);
         }
-        GameObject.Find("Spawner").GetComponent<CharacterSpawner>().respawn(playerID);
+        //GameObject.Find("Spawner").GetComponent<CharacterSpawner>().respawn(playerID);
+        CharacterSpawner spawner = FindObjectOfType<CharacterSpawner>();
+        spawner.respawn(playerID);
         StopAllCoroutines();
         Destroy(gameObject);
     }
@@ -96,8 +125,8 @@ public class CharacterHealth : MonoBehaviour {
     public void UpdateHealth(int h) {
         health += h;
 
-        if (myHealhBar != null)
-            myHealhBar.SetHealth(health);
+        if (myHealthBar != null)
+            myHealthBar.SetHealth(health);
     }
 
     public void Kill() {

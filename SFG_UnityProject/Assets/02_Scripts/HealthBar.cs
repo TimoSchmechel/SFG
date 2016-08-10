@@ -7,6 +7,8 @@ public class HealthBar : MonoBehaviour {
     public GameObject notch;
     public int offset = 25;
 
+    public int playerID = 0;
+
     private GameObject[] notches;
 
     // Use this for initialization
