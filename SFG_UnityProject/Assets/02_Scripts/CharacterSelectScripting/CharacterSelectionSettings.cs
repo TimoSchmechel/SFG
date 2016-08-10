@@ -13,12 +13,13 @@ public class CharacterSelectionSettings : MonoBehaviour
     // Use this for initialization
     void Start ()
     {
+        Debug.Log("Characterrasdasdasusndfbasdfasdfasdf");
         DontDestroyOnLoad(this);
 
         if (Instance == null)
             Instance = this;
         else
-            Destroy(Instance.gameObject);
+            Destroy(this);
     }
 
     [ContextMenu("LoadLevel")]

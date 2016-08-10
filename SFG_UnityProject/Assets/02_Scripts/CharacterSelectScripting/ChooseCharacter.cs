@@ -7,7 +7,7 @@ public class ChooseCharacter : MonoBehaviour {
     public int playerNumber;
     //Needs to be non-empty
     public string SetMode = "Empty";
-    private int numOfC = 5;
+    private int numOfC = 6;
 
     void Start()
     {
@@ -23,12 +23,20 @@ public class ChooseCharacter : MonoBehaviour {
 
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                CharacterSelectionSettings.Instance.characterSelections[playerNumber] = charIndex;
+                chooseCharacter();
             }
         }
-    }   
-        //Controls the navigation of the character
-        private void Left()
+        
+    }
+    
+    public void chooseCharacter()
+    {
+        Debug.Log("Calling Character Select : " + playerNumber + "-" + charIndex);
+        CharacterSelectionSettings.Instance.characterSelections[playerNumber] = charIndex;
+    }
+
+    //Controls the navigation of the character
+    private void Left()
         {
             charIndex = charIndex - 1;
             if (charIndex < 0)
