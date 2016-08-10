@@ -24,6 +24,8 @@ public class SFGCharacterController : MonoBehaviour
     public KeyCode upKey = KeyCode.UpArrow;
     public KeyCode downKey = KeyCode.DownArrow;
     public KeyCode jumpKey = KeyCode.RightShift;
+    public KeyCode attack = KeyCode.E;
+    public KeyCode throwAttack = KeyCode.Q;
 
     public bool autoAssign = false;
 
@@ -111,6 +113,11 @@ public class SFGCharacterController : MonoBehaviour
         {
             hVector.y -= 1;
             //Debug.Log(hVector);
+        }
+
+        if(Input.GetKeyDown(attack))
+        {
+            myMotor.GetComponent<AttackManager>().StartAttack(0);
         }
 
 

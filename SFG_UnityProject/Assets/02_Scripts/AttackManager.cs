@@ -23,6 +23,7 @@ public class AttackManager : MonoBehaviour
     public string [] animationStrings;
     public Animator animator;
     private CharacterHealth charHealth;
+    public bool useLocalKeys = false;
 
     // Use this for initialization
     void Start ()
@@ -36,8 +37,26 @@ public class AttackManager : MonoBehaviour
         //If the player is not invulnerable they can attack
         if (!charHealth.invunerable)
         {
-            CheckKeys();
+            if(useLocalKeys)
+                CheckKeys();
         }
+    }
+
+    public void StartAttack(int i)
+    {
+        if (animator != null)
+        {
+            animator.SetTrigger(animationStrings[i]);
+            attacks[i].gameObject.SetActive(true);
+            attacks[i].StartAttack();
+
+        }
+        else
+        {
+            attacks[i].gameObject.SetActive(true);
+            attacks[i].StartAttack();
+        }
+
     }
 
     void CheckKeys()
@@ -49,18 +68,7 @@ public class AttackManager : MonoBehaviour
             { 
                if(Input.GetKeyDown(attackKeys[i]))
                 {
-                    if (animator != null)
-                    {
-                        animator.SetTrigger(animationStrings[i]);
-                        attacks[i].gameObject.SetActive(true);
-                        attacks[i].StartAttack();
-                    }
-                    else
-                    {
-                        attacks[i].gameObject.SetActive(true);
-                        attacks[i].StartAttack();
-                    }
-                    
+                    StartAttack(i);
                 }
 
 

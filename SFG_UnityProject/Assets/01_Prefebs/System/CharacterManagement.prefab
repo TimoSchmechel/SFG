@@ -345,11 +345,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9df265fbeeca2f49b2005a1c8159f54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftKey: 116
-  rightKey: 102
+  leftKey: 102
+  rightKey: 104
   upKey: 116
   downKey: 103
   jumpKey: 116
+  attack: 121
+  throwAttack: 113
   autoAssign: 0
   myMotor: {fileID: 0}
   axisRestrictions:
@@ -372,6 +374,8 @@ MonoBehaviour:
   upKey: 273
   downKey: 274
   jumpKey: 273
+  attack: 303
+  throwAttack: 47
   autoAssign: 0
   myMotor: {fileID: 0}
   axisRestrictions:
@@ -394,6 +398,8 @@ MonoBehaviour:
   upKey: 105
   downKey: 107
   jumpKey: 105
+  attack: 111
+  throwAttack: 113
   autoAssign: 0
   myMotor: {fileID: 0}
   axisRestrictions:
@@ -416,6 +422,8 @@ MonoBehaviour:
   upKey: 119
   downKey: 115
   jumpKey: 119
+  attack: 101
+  throwAttack: 113
   autoAssign: 0
   myMotor: {fileID: 0}
   axisRestrictions:
