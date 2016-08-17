@@ -7,3 +7,7 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/07_Scenes/Scratch Scenes/DecoupledControls3.unity
+  - enabled: 1
+    path: Assets/07_Scenes/Scratch Scenes/CharacterSelectTest.unity
+  - enabled: 1
+    path: Assets/07_Scenes/MainMenu Canvas.unity
