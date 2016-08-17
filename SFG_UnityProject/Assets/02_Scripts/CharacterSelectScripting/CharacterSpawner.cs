@@ -11,6 +11,7 @@ Contributors:
 */
 
 using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class CharacterSpawner : MonoBehaviour
@@ -32,6 +33,9 @@ public class CharacterSpawner : MonoBehaviour
     public int [] characterLives = new int[4];
 
     public Transform[] spawnPoints;
+
+    public GameObject winTree;
+    public Text winnerLabel;
 
 	// Use this for initialization
 	void Start ()
@@ -95,13 +99,60 @@ public class CharacterSpawner : MonoBehaviour
     {
         if (characterLives[ID] > 0)
         {
-            
-            if(characterLives[ID] > 1)
+
+            if (characterLives[ID] > 1)
                 SpawnCharacter(characterList[characterSelections[ID]], spawnPoints[ID], characterControls[ID], ID);
 
             characterLives[ID]--;
         }
         else
+        {
             Debug.Log("No more lives. Sorreh. Lel");
+
+        }
+
+
+        int winId = CheckWinner();
+        Debug.Log("Check Wiiner:" + winId);
+
+        if(winId > -1)
+        {
+            winTree.SetActive(true);
+            winnerLabel.text = "Player " + (winId+1).ToString();
+        }
+    }
+
+    public int CountLiving()
+    { 
+        int result = 0;
+
+        for(int i = 0; i < characterLives.Length; i++)
+        {
+            if (characterLives[i] > 0)
+                result++;
+        }
+
+        Debug.Log("CountLiving: " + result);
+        return result;
+    }
+
+    //checks who the winning player is..
+    //-1 mean so one wins
+    public int CheckWinner()
+    {
+        int winner = -1;
+
+        if(CountLiving() == 1)
+        {
+            for (int i = 0; i < characterLives.Length; i++)
+            {
+                if(characterLives[i] > 0)
+                {
+                    return i;
+                }
+            }
+        }
+
+        return winner;
     }
 }
