@@ -34,7 +34,7 @@ public class SFGCharacterMotor : MonoBehaviour
     private Rigidbody rBody;
     public Animator anim;
     Vector3 mVector;
-    
+
 
     // Use this for initialization
     void Start()
@@ -87,24 +87,36 @@ public class SFGCharacterMotor : MonoBehaviour
         mVector.x = hVector.x;
         mVector.z = hVector.y;
 
-        float max;
-        if (!grounded)//allow more possible magnitude during air movement
-            max = maxSpeed + 2;
-        else max = maxSpeed;
 
         //don't go past a certain speed..
         Vector3 output = mVector * speed * sanityCoEfficient;
         rBody.AddForce(output);
-        if (!(rBody.velocity.magnitude < max && rBody.velocity.magnitude > -max))
+        Vector3 vel = rBody.velocity, result = new Vector3(0, 0, 0);
+        if ((!(rBody.velocity.magnitude < maxSpeed && rBody.velocity.magnitude > -maxSpeed)) && grounded)// if grounded and too fast then basic slow down.
         {
-            Vector3 vel = rBody.velocity, result = new Vector3(0, 0, 0);
             result = vel * -1;
             result.Normalize();
             //result = result * (vel.magnitude - maxSpeed);
             rBody.AddForce(result * speed * sanityCoEfficient);
-        } else if (rBody.velocity.y < 0 && !grounded)
+        }
+        else if ((!(rBody.velocity.magnitude < maxSpeed && rBody.velocity.magnitude > -maxSpeed)) && !grounded)// if in air restrict vertical movment
         {
-            rBody.AddForce(new Vector3(0, -speed * sanityCoEfficient, 0));
+            if (vel.x > maxSpeed)
+            {
+                Debug.Log("Over X");
+                result.x = -(vel.x-maxSpeed);//slow down but don't stop player
+            }
+            if (vel.x < -maxSpeed)
+            {
+                Debug.Log("Under X");
+                result.x = -(vel.x + maxSpeed);//slow down but don't stop player
+            }
+            if (vel.y > maxSpeed)
+            {
+                Debug.Log("Over y");
+                result.y = -(maxSpeed/3);
+            }
+            rBody.AddForce(result * speed * sanityCoEfficient);
         }
 
     }
