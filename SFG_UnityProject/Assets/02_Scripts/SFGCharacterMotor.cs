@@ -103,17 +103,14 @@ public class SFGCharacterMotor : MonoBehaviour
         {
             if (vel.x > maxSpeed)
             {
-                Debug.Log("Over X");
                 result.x = -(vel.x-maxSpeed);//slow down but don't stop player
             }
             if (vel.x < -maxSpeed)
             {
-                Debug.Log("Under X");
                 result.x = -(vel.x + maxSpeed);//slow down but don't stop player
             }
             if (vel.y > maxSpeed)
             {
-                Debug.Log("Over y");
                 result.y = -(maxSpeed/3);
             }
             rBody.AddForce(result * speed * sanityCoEfficient);
