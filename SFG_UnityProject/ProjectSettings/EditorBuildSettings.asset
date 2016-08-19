@@ -19,3 +19,5 @@ EditorBuildSettings:
     path: Assets/07_Scenes/Map Volcano.unity
   - enabled: 1
     path: Assets/07_Scenes/MapSelectScreen.unity
+  - enabled: 1
+    path: Assets/07_Scenes/Map Castle.unity

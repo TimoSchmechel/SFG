@@ -1020,12 +1020,13 @@ MonoBehaviour:
   imgs:
   - {fileID: 21300000, guid: 19b500da9bcddcb4f9fc3c506b3d2416, type: 3}
   - {fileID: 21300000, guid: d5f0ac9b71662c0438dcde277eb67b69, type: 3}
+  - {fileID: 21300000, guid: 9b70d9b5e9c6d9349b7418e4ff7ededb, type: 3}
   - {fileID: 21300000, guid: 62ddd78f30c4dec49a97530f499fdf75, type: 3}
   - {fileID: 21300000, guid: e73e42aca20186f4c8186e1359bef459, type: 3}
   levels:
   - Map Forest
   - Map Rooftop Alley
-  - Map Space
+  - Map Castle
   - Map Train
   - Map Volcano
 --- !u!1 &1641145301
