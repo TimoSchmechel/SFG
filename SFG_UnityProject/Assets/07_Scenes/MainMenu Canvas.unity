@@ -535,7 +535,7 @@ RectTransform:
   m_Children:
   - {fileID: 1846490417}
   m_Father: {fileID: 1142040515}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_AnchorMin: {x: 0.554, y: 0.055565346}
   m_AnchorMax: {x: 0.93587005, y: 0.9385927}
   m_AnchoredPosition: {x: 1.5, y: 3}
@@ -603,7 +603,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1142040515}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_AnchorMin: {x: 0.046161987, y: 0.5483458}
   m_AnchorMax: {x: 0.5, y: 0.9664767}
   m_AnchoredPosition: {x: 0.5, y: 0}
@@ -674,7 +674,7 @@ RectTransform:
   m_Children:
   - {fileID: 1795625182}
   m_Father: {fileID: 1142040515}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_AnchorMin: {x: 0.13382058, y: 0.3277867}
   m_AnchorMax: {x: 0.43542603, y: 0.48800004}
   m_AnchoredPosition: {x: 0, y: 1.8650055}
@@ -866,6 +866,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 1477338688}
   - {fileID: 971387128}
   - {fileID: 1056828894}
   - {fileID: 2046008605}
@@ -964,85 +965,74 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!1 &1285231676
+--- !u!1 &1477338687
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 1285231680}
-  - 33: {fileID: 1285231679}
-  - 64: {fileID: 1285231678}
-  - 23: {fileID: 1285231677}
-  m_Layer: 0
-  m_Name: Plane
+  - 224: {fileID: 1477338688}
+  - 222: {fileID: 1477338690}
+  - 114: {fileID: 1477338689}
+  m_Layer: 5
+  m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!23 &1285231677
-MeshRenderer:
+--- !u!224 &1477338688
+RectTransform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1285231676}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!64 &1285231678
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1285231676}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!33 &1285231679
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1285231676}
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1285231680
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1285231676}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_GameObject: {fileID: 1477338687}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.0752814, y: 0.9999999, z: 2.0147564}
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 1142040515}
+  m_RootOrder: 0
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -0.75, y: -1.5}
+  m_SizeDelta: {x: -6.5, y: -4}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1477338689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1477338687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.25882354, g: 0.13725491, b: 0.13725491, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1477338690
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1477338687}
 --- !u!1 &1506054209
 GameObject:
   m_ObjectHideFlags: 0
@@ -1508,22 +1498,68 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 33
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
+    m_FontSize: 24
+    m_FontStyle: 1
+    m_BestFit: 1
+    m_MinSize: 2
     m_MaxSize: 40
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'This will be the credits for
+  m_Text: 'SIMPLE FIGHTING GAME
 
-    IGDA MQ
+    created by IGDA MQ
 
-    Simple Fighting Game'
+
+    PROJECT LEAD
+
+    Andrew Diggins
+
+    Matt Cabanag
+
+
+    PROGRAMMING
+
+    Matt Cabanag
+
+    Harrison Campbell
+
+    Hayden Munday
+
+    Mitchell Wilcox
+
+    Garion Knapp
+
+
+    ARTIST AND MODELLERS
+
+    Andrew Diggins
+
+    Angus Raisin
+
+    Kevin Tran
+
+    Maddie Toddhunter
+
+    Robbie Quinn
+
+
+    THANKS TO
+
+    Macquaire University Computing Department
+
+    The IGDA Sydney Chapter
+
+    Daniel Crippa
+
+    Peter Reeves
+
+    Harambe
+
+'
 --- !u!222 &1846490419
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1624,7 +1660,7 @@ RectTransform:
   m_Children:
   - {fileID: 1768803876}
   m_Father: {fileID: 1142040515}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_AnchorMin: {x: 0.13382058, y: 0.089}
   m_AnchorMax: {x: 0.43542603, y: 0.2462651}
   m_AnchoredPosition: {x: -0.065999985, y: 2.5}

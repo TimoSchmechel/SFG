@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4517764, g: 0.50056076, b: 0.568806, a: 1}
+  m_IndirectSpecularColor: {r: 0.45177692, g: 0.50056165, b: 0.5688069, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -291,7 +291,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000013211103560, guid: b53a7450c7bd82f4c9fcc116366a3152, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -1.18
       objectReference: {fileID: 0}
     - target: {fileID: 4000013211103560, guid: b53a7450c7bd82f4c9fcc116366a3152, type: 2}
       propertyPath: m_LocalPosition.z
@@ -316,6 +316,38 @@ Prefab:
     - target: {fileID: 4000013211103560, guid: b53a7450c7bd82f4c9fcc116366a3152, type: 2}
       propertyPath: m_RootOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013130725664, guid: b53a7450c7bd82f4c9fcc116366a3152, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -30.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013130725664, guid: b53a7450c7bd82f4c9fcc116366a3152, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -5.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012470801264, guid: b53a7450c7bd82f4c9fcc116366a3152, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -3.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012470801264, guid: b53a7450c7bd82f4c9fcc116366a3152, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -17.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012494458576, guid: b53a7450c7bd82f4c9fcc116366a3152, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -3.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012494458576, guid: b53a7450c7bd82f4c9fcc116366a3152, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -7.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000014057295906, guid: b53a7450c7bd82f4c9fcc116366a3152, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -2.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000014057295906, guid: b53a7450c7bd82f4c9fcc116366a3152, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 4.62
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b53a7450c7bd82f4c9fcc116366a3152, type: 2}
@@ -375,7 +407,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457454, guid: 645b73387b18ea841879ccb0e3782aae, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -2.66
+      value: -3.84
       objectReference: {fileID: 0}
     - target: {fileID: 457454, guid: 645b73387b18ea841879ccb0e3782aae, type: 2}
       propertyPath: m_LocalPosition.z
@@ -403,19 +435,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 493028, guid: 645b73387b18ea841879ccb0e3782aae, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0.30168146
+      value: 0.3016815
       objectReference: {fileID: 0}
     - target: {fileID: 493028, guid: 645b73387b18ea841879ccb0e3782aae, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0.66786724
+      value: 0.6678673
       objectReference: {fileID: 0}
     - target: {fileID: 493028, guid: 645b73387b18ea841879ccb0e3782aae, type: 2}
       propertyPath: m_LocalRotation.z
-      value: -0.6199059
+      value: -0.61990595
       objectReference: {fileID: 0}
     - target: {fileID: 493028, guid: 645b73387b18ea841879ccb0e3782aae, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 0.28046086
+      value: 0.2804609
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 645b73387b18ea841879ccb0e3782aae, type: 2}
@@ -502,7 +534,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2083194393}
   m_LocalRotation: {x: 0.10824805, y: 0, z: 0, w: 0.99412394}
-  m_LocalPosition: {x: -32.2, y: 27.44, z: -39.9}
+  m_LocalPosition: {x: -32.2, y: 26.26, z: -39.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 12.4286995, y: 0, z: 0}
   m_Children: []
