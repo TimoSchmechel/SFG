@@ -75,7 +75,7 @@ GameObject:
   - 114: {fileID: 114000013070633004}
   - 114: {fileID: 114000010186603906}
   m_Layer: 5
-  m_Name: HealthBar_R_B
+  m_Name: HealthBar_L_B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -443,7 +443,7 @@ GameObject:
   - 114: {fileID: 114000013185395304}
   - 114: {fileID: 114000014064650880}
   m_Layer: 5
-  m_Name: HealthBar_L_T
+  m_Name: HealthBar_R_T
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -494,7 +494,7 @@ GameObject:
   - 114: {fileID: 114000013117055464}
   - 114: {fileID: 114000014097957184}
   m_Layer: 5
-  m_Name: HealthBar_L_B
+  m_Name: HealthBar_R_B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -594,7 +594,7 @@ GameObject:
   - 114: {fileID: 114000013504934650}
   - 114: {fileID: 114000014122372488}
   m_Layer: 5
-  m_Name: HealthBar_R_T
+  m_Name: HealthBar_L_T
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -878,7 +878,7 @@ MonoBehaviour:
   maxHealth: 5
   notch: {fileID: 1000010415483320}
   offset: 20
-  playerID: 0
+  playerID: 2
 --- !u!114 &114000010348746362
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1745,7 +1745,7 @@ MonoBehaviour:
   maxHealth: 5
   notch: {fileID: 1000013332055258}
   offset: 20
-  playerID: 3
+  playerID: 1
 --- !u!114 &114000014097957184
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1760,7 +1760,7 @@ MonoBehaviour:
   maxHealth: 5
   notch: {fileID: 1000012588180438}
   offset: 20
-  playerID: 2
+  playerID: 3
 --- !u!114 &114000014110963822
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1801,7 +1801,7 @@ MonoBehaviour:
   maxHealth: 5
   notch: {fileID: 1000013807377378}
   offset: 20
-  playerID: 1
+  playerID: 0
 --- !u!114 &114000014124076520
 MonoBehaviour:
   m_ObjectHideFlags: 1
