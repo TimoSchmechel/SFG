@@ -1,0 +1,166 @@
+fileFormatVersion: 2
+guid: 057e24bfe3001c14ca136469fe5f63ad
+timeCreated: 1469769828
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Body
+    100004: Body_0
+    100006: Full
+    100008: Head
+    100010: Head_0
+    100012: L_Foot
+    100014: L_Forearm
+    100016: L_Hand
+    100018: L_Leg
+    100020: L_Thigh
+    100022: Left_Arm
+    100024: Left_Foot
+    100026: //RootNode
+    100028: Plane
+    100030: R_Foot
+    100032: R_Forearm
+    100034: R_Hand
+    100036: R_Leg
+    100038: R_Thigh
+    100040: Right_Arm
+    100042: Right_Foot
+    100044: Weapon
+    100046: Body_001
+    100048: Head_001
+    100050: Left_Arm_001
+    100052: Left_Foot_001
+    100054: Plane_001
+    100056: Right_Arm_001
+    100058: Right_Foot_001
+    100060: Weapon_0
+    400000: Armature
+    400002: Body
+    400004: Body_0
+    400006: Full
+    400008: Head
+    400010: Head_0
+    400012: L_Foot
+    400014: L_Forearm
+    400016: L_Hand
+    400018: L_Leg
+    400020: L_Thigh
+    400022: Left_Arm
+    400024: Left_Foot
+    400026: //RootNode
+    400028: Plane
+    400030: R_Foot
+    400032: R_Forearm
+    400034: R_Hand
+    400036: R_Leg
+    400038: R_Thigh
+    400040: Right_Arm
+    400042: Right_Foot
+    400044: Weapon
+    400046: Body_001
+    400048: Head_001
+    400050: Left_Arm_001
+    400052: Left_Foot_001
+    400054: Plane_001
+    400056: Right_Arm_001
+    400058: Right_Foot_001
+    400060: Weapon_0
+    4300000: Plane
+    4300002: Left_Foot
+    4300004: Right_Foot
+    4300006: Right_Arm
+    4300008: Left_Arm
+    4300010: Head
+    4300012: Body
+    4300014: Body_001
+    4300016: Head_001
+    4300018: Left_Foot_001
+    4300020: Plane_001
+    4300022: Right_Arm_001
+    4300024: Right_Foot_001
+    4300026: Left_Arm_001
+    4300028: Weapon
+    7400000: Default Take
+    7400002: ArmatureAction
+    9500000: //RootNode
+    13700000: Body
+    13700002: Head
+    13700004: Left_Arm
+    13700006: Left_Foot
+    13700008: Plane
+    13700010: Right_Arm
+    13700012: Right_Foot
+    13700014: Body_001
+    13700016: Head_001
+    13700018: Left_Arm_001
+    13700020: Left_Foot_001
+    13700022: Plane_001
+    13700024: Right_Arm_001
+    13700026: Right_Foot_001
+    13700028: Weapon
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.25
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
