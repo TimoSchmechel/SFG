@@ -73,7 +73,7 @@ public class cameraControls : MonoBehaviour
 
         if (players.Length > 1)
         {
-            newPos = new Vector3((minX + maxX) / 2, (minY + maxY) / 2, Mathf.Clamp(newZ, -Mathf.Infinity, -8));
+            newPos = new Vector3((minX + maxX) / 2, ((minY + maxY) / 2)+2, Mathf.Clamp(newZ, -Mathf.Infinity, -16));
         }
         else
         {
