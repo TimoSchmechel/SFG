@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: a2f1dbee4f576514491d366452309487
+timeCreated: 1471580135
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Center
+    100004: Down_Edge
+    100006: Down_Edge_001
+    100008: Hex_Merlons
+    100010: Hex_Merlons_001
+    100012: Hex_Merlons_002
+    100014: Hex_Wall
+    100016: Hex_Wall_001
+    100018: Hex_Wall_002
+    100020: Hex_Wall_003
+    100022: Merlon
+    100024: Merlon_001
+    100026: Merlon_002
+    100028: Merlon_003
+    100030: Path_Bricks
+    100032: Path_Bricks_001
+    100034: Path_Bricks_002
+    100036: Path_Bricks_003
+    100038: Path_Bricks_004
+    100040: Path_Bricks_005
+    100042: Stairs
+    100044: Stairs_001
+    100046: Straight_Wall
+    100048: Straight_Wall_001
+    100050: Straight_Wall_002
+    100052: Straight_Wall_003
+    100054: Straight_Wall_004
+    100056: Straight_Wall_005
+    100058: ColliderMesh
+    400000: //RootNode
+    400002: Center
+    400004: Down_Edge
+    400006: Down_Edge_001
+    400008: Hex_Merlons
+    400010: Hex_Merlons_001
+    400012: Hex_Merlons_002
+    400014: Hex_Wall
+    400016: Hex_Wall_001
+    400018: Hex_Wall_002
+    400020: Hex_Wall_003
+    400022: Merlon
+    400024: Merlon_001
+    400026: Merlon_002
+    400028: Merlon_003
+    400030: Path_Bricks
+    400032: Path_Bricks_001
+    400034: Path_Bricks_002
+    400036: Path_Bricks_003
+    400038: Path_Bricks_004
+    400040: Path_Bricks_005
+    400042: Stairs
+    400044: Stairs_001
+    400046: Straight_Wall
+    400048: Straight_Wall_001
+    400050: Straight_Wall_002
+    400052: Straight_Wall_003
+    400054: Straight_Wall_004
+    400056: Straight_Wall_005
+    400058: ColliderMesh
+    2300000: Center
+    2300002: Down_Edge
+    2300004: Down_Edge_001
+    2300006: Hex_Merlons
+    2300008: Hex_Merlons_001
+    2300010: Hex_Merlons_002
+    2300012: Hex_Wall
+    2300014: Hex_Wall_001
+    2300016: Hex_Wall_002
+    2300018: Hex_Wall_003
+    2300020: Merlon
+    2300022: Merlon_001
+    2300024: Merlon_002
+    2300026: Merlon_003
+    2300028: Path_Bricks
+    2300030: Path_Bricks_001
+    2300032: Path_Bricks_002
+    2300034: Path_Bricks_003
+    2300036: Path_Bricks_004
+    2300038: Path_Bricks_005
+    2300040: Stairs
+    2300042: Stairs_001
+    2300044: Straight_Wall
+    2300046: Straight_Wall_001
+    2300048: Straight_Wall_002
+    2300050: Straight_Wall_003
+    2300052: Straight_Wall_004
+    2300054: Straight_Wall_005
+    2300056: ColliderMesh
+    3300000: Center
+    3300002: Down_Edge
+    3300004: Down_Edge_001
+    3300006: Hex_Merlons
+    3300008: Hex_Merlons_001
+    3300010: Hex_Merlons_002
+    3300012: Hex_Wall
+    3300014: Hex_Wall_001
+    3300016: Hex_Wall_002
+    3300018: Hex_Wall_003
+    3300020: Merlon
+    3300022: Merlon_001
+    3300024: Merlon_002
+    3300026: Merlon_003
+    3300028: Path_Bricks
+    3300030: Path_Bricks_001
+    3300032: Path_Bricks_002
+    3300034: Path_Bricks_003
+    3300036: Path_Bricks_004
+    3300038: Path_Bricks_005
+    3300040: Stairs
+    3300042: Stairs_001
+    3300044: Straight_Wall
+    3300046: Straight_Wall_001
+    3300048: Straight_Wall_002
+    3300050: Straight_Wall_003
+    3300052: Straight_Wall_004
+    3300054: Straight_Wall_005
+    3300056: ColliderMesh
+    4300000: Stairs_001
+    4300002: Hex_Wall_003
+    4300004: Hex_Wall_002
+    4300006: Hex_Wall_001
+    4300008: Straight_Wall_005
+    4300010: Straight_Wall_004
+    4300012: Straight_Wall_003
+    4300014: Straight_Wall_002
+    4300016: Straight_Wall_001
+    4300018: Down_Edge_001
+    4300020: Merlon_003
+    4300022: Merlon_002
+    4300024: Hex_Merlons_002
+    4300026: Hex_Merlons_001
+    4300028: Merlon_001
+    4300030: Path_Bricks_005
+    4300032: Path_Bricks_004
+    4300034: Path_Bricks_003
+    4300036: Path_Bricks_002
+    4300038: Path_Bricks_001
+    4300040: Hex_Merlons
+    4300042: Merlon
+    4300044: Stairs
+    4300046: Path_Bricks
+    4300048: Down_Edge
+    4300050: Hex_Wall
+    4300052: Straight_Wall
+    4300054: Center
+    4300056: ColliderMesh
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
