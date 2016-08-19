@@ -419,7 +419,7 @@ GameObject:
   - 114: {fileID: 114000014137798994}
   - 114: {fileID: 114000012157008638}
   m_Layer: 0
-  m_Name: Jackie Lee
+  m_Name: Character_Jackie Lee
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
