@@ -714,7 +714,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012189896904}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.77, y: 2.85, z: 0}
+  m_LocalPosition: {x: -2.57, y: 2.47, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -727,7 +727,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012573757032}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.77, y: -0.78, z: 0}
+  m_LocalPosition: {x: 3.73, y: 2.01, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -753,7 +753,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011663820190}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.14, y: 2.85, z: 0}
+  m_LocalPosition: {x: -9.28, y: 2.85, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -795,7 +795,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011229032474}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.14, y: -0.78, z: 0}
+  m_LocalPosition: {x: 9.14, y: 2.97, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -1221,9 +1221,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'P3
-
-'
+  m_Text: P2
 --- !u!114 &114000011227599428
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1613,12 +1611,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e0094976cee09a40bbe5d45e4756f98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterSelections: 00000000010000000200000003000000
+  characterSelections: 00000000010000000200000005000000
   characterList:
   - {fileID: 162358, guid: 0ac5a6102ee598a498b5d2186cf364d1, type: 2}
   - {fileID: 143444, guid: a44f3c2e4432ac843a8ab7d574e85ff4, type: 2}
   - {fileID: 137250, guid: d4c6bf3a72cc6d64880ebb40673e0b91, type: 2}
   - {fileID: 1000012614251442, guid: e87c3daefd0bc1d4180084d0e81dafa9, type: 2}
+  - {fileID: 1000010472072878, guid: 445bf00872e3c8f4ea9924d9fae2b9a0, type: 2}
+  - {fileID: 1000011739746800, guid: f22e59d3df5922d42a6d719ab895ada5, type: 2}
   characterControls: []
   characterLives: 03000000030000000300000003000000
   spawnPoints:
@@ -2190,7 +2190,7 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 41.2, y: 47}
+  m_AnchoredPosition: {x: 41.20001, y: 47}
   m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224000010494713198
